@@ -5,12 +5,12 @@
 
     <div class="menu">
         <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Over ons</a></li>
-            <li><a href="#">Diensten</a></li>
-            <li><a href="#">Projecten</a></li>
-            <li><a href="#">Contact</a></li>
-            <li class="button"><a style="color: #ffffff;" href="#" >Klantenlogin</a></li>
+            <li><a href="http://www.avence.nl" class="active">Home</a></li>
+            <li><a href="http://www.avence.nl/about">Over ons</a></li>
+            <li><a href="http://www.avence.nl/services">Diensten</a></li>
+            <li><a href="http://www.avence.nl/projects">Projecten</a></li>
+            <li><a href="http://www.avence.nl/contact">Contact</a></li>
+            <li class="button"><a style="color: #ffffff;" href="http://www.avence.nl/klanten-login" >Klantenlogin</a></li>
         </ul>
     </div>
 </div>

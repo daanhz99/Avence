@@ -1,0 +1,66 @@
+$white: #fff;
+$lightwhite: #3c3f41;
+$grey: #707070;
+$dark-grey: #272727;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+@import 'partials/header';
+@import 'partials/footer';
+@import 'pages/home';
+@import 'pages/home2';
+@import 'pages/home3';
+@import 'pages/overOns';
+
+
+*{
+  font-family: "Open Sans", "Arial";
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+
+
+
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+
+  .button{
+    background: linear-gradient(#1E92E6, #4A9DD9);
+    padding: 12px 29px;
+    border-radius: 16px;
+    -webkit-box-shadow: 1px 1px 24px 0px rgba(207,207,207,1);
+    -moz-box-shadow: 1px 1px 24px 0px rgba(207,207,207,1);
+    box-shadow: 1px 1px 24px 0px rgba(207,207,207,1);
+
+
+
+  }
+
+
+
+
+
+  h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: $white;
+  }
+
+
+}
+
+
+
+@media (min-width: 1800px) {
+  .container{
+    width: 1200px!important;
+    margin: 0 auto;
+  }
+
+}

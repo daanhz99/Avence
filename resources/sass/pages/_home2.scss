@@ -1,0 +1,136 @@
+@media (max-width: 760px) {
+
+  .website-img {
+    img {
+      width: 40%;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+
+  .website-img {
+    display: none !important;
+  }
+
+  .website-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%!important;
+    text-align: center;
+    margin: 0!important;
+
+    h2 {
+      font-weight: 300;
+      font-size: 35px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 20px;
+      color: $grey;
+      margin: 20px 0;
+      padding-bottom: 20px;
+      letter-spacing: 1px;
+      width: unset!important;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 12px;
+      padding: 15px 45px;
+      opacity: 0.8;
+      margin: 0!important;
+      width: unset!important;
+    }
+
+  }
+}
+
+
+
+
+
+
+  .home-diensten {
+    height: 100%;
+
+    .container {
+
+      width: 70%;
+      margin: 0 auto;
+
+      //?
+
+      .home-website {
+
+        display: flex;
+        width: 100%;
+        height: 349px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        justify-content: space-between;
+
+        .website-img {
+          width: 50%;
+          height: 100%;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          img {
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+          }
+        }
+
+        .website-text {
+          margin-right: -80px;
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          h2 {
+            font-weight: 300;
+            font-size: 35px;
+          }
+
+          p {
+            font-weight: 300;
+            font-size: 20px;
+            color: $grey;
+            width: 80%;
+            margin: 20px 0;
+            padding-bottom: 20px;
+            letter-spacing: 1px;
+          }
+
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 12px;
+            padding: 15px 45px;
+            opacity: 0.8;
+            width: 57px;
+          }
+
+          a:hover {
+            opacity: 1;
+            transition: 0.6s;
+          }
+
+        }
+
+      }
+
+    }
+  }

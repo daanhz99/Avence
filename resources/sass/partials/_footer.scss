@@ -1,0 +1,142 @@
+@media (max-width: 800px) {
+
+  footer {
+
+    background: $dark-grey;
+    height: 100%;
+
+    .container {
+
+      .footer-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        ul{
+          li{
+            color: #C4C4C4;
+          }
+        }
+        
+        
+      }
+
+      .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+          text-align: center;
+          margin: 10px 0 10px 0!important;
+        }
+
+      }
+
+      width: 67%;
+      .footer-avence {
+
+
+
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px!important;
+
+        ul {
+
+          li {
+
+            color: #e8e8e8;
+            font-size: 13px;
+            font-weight: 300;
+            list-style: none;
+
+            a{
+              color: #C4C4C4;
+              text-decoration: none;
+              font-weight: 300;
+              font-size: 13px;
+            }
+
+            span {
+              font-weight: 400;
+              font-size: 20px;
+              color: white;
+            }
+          }
+        }
+      }
+
+
+      .footer-bottom{
+        p{
+          color: #6F6F6F;
+
+          a{
+            color: #6F6F6F;
+            text-decoration: none;
+          }
+
+        }
+      }
+
+    }
+  }
+}
+
+
+
+@media (min-width: 800px) {
+
+  footer {
+
+    background: $dark-grey;
+    height: 100%;
+
+    .container {
+
+      width: 67%;
+      .footer-avence {
+
+        width: 100%;
+
+        ul {
+
+          li {
+
+            color: #C4C4C4;
+            font-size: 13px;
+            font-weight: 300;
+            list-style: none;
+
+            a{
+              color: #C4C4C4;
+              text-decoration: none;
+              font-weight: 300;
+              font-size: 13px;
+            }
+
+            span {
+              font-weight: 400;
+              font-size: 20px;
+              color: white;
+            }
+          }
+        }
+      }
+      
+      
+      .footer-bottom{
+        p{
+          color: #6F6F6F;
+
+          a{
+            color: #6F6F6F;
+            text-decoration: none;
+          }
+
+        }
+      }
+      
+    }
+  }
+}

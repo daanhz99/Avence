@@ -1,0 +1,86 @@
+@media (min-width: 1000px) {
+
+  .waarom-avence {
+
+    background: #2D2D2D;
+    height: 350px;
+
+    .container {
+      height: 100%;
+
+      .waarom-avence-content {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+
+        width: 100%;
+
+        .wac-topic {
+          width: 31%;
+          margin: auto 0;
+
+          svg {
+            width: 10%;
+          }
+
+          h2 {
+            color: white;
+            font-weight: 600;
+            font-size: 24px;
+            margin: 20px 0;
+          }
+
+          p {
+            color: white;
+            font-size: 14px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .waarom-avence {
+
+    background: #2D2D2D;
+    height: 100%;
+
+    .container {
+      height: 100%;
+
+      .waarom-avence-content {
+        padding: 30px 0;
+        text-align: center;
+        display: block;
+        height: 100%;
+
+        width: 100%;
+
+        .wac-topic {
+          width: 100%;
+          margin-bottom: 50px;
+
+          svg {
+            width: 25px;
+          }
+
+          h2 {
+            color: white;
+            font-weight: 600;
+            font-size: 24px;
+            margin: 10px 0;
+          }
+
+          p {
+            color: white;
+            font-size: 14px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

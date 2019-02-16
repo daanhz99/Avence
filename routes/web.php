@@ -11,5 +11,5 @@
 |
 */
 
-Route::view('/', 'pages.home');
-Route::view('/about', 'pages.overOns');
+Route::view('/', 'portal.pages.home');
+Route::view('/about', 'portal.pages.about');

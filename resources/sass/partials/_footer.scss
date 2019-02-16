@@ -1,142 +1,127 @@
-@media (max-width: 800px) {
-
-  footer {
-
-    background: $dark-grey;
-    height: 100%;
-
-    .container {
-
-      .footer-top{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-        ul{
-          li{
-            color: #C4C4C4;
-          }
-        }
-        
-        
-      }
-
-      .footer-bottom{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        p{
-          text-align: center;
-          margin: 10px 0 10px 0!important;
-        }
-
-      }
-
-      width: 67%;
-      .footer-avence {
-
-
-
-        text-align: center;
-        width: 100%;
-        margin-bottom: 15px!important;
-
-        ul {
-
-          li {
-
-            color: #e8e8e8;
-            font-size: 13px;
-            font-weight: 300;
-            list-style: none;
-
-            a{
-              color: #C4C4C4;
-              text-decoration: none;
-              font-weight: 300;
-              font-size: 13px;
-            }
-
-            span {
-              font-weight: 400;
-              font-size: 20px;
-              color: white;
-            }
-          }
-        }
-      }
-
-
-      .footer-bottom{
-        p{
-          color: #6F6F6F;
-
-          a{
-            color: #6F6F6F;
-            text-decoration: none;
-          }
-
-        }
-      }
-
-    }
-  }
-}
-
-
-
 @media (min-width: 800px) {
 
   footer {
+    padding: 100px 0 50px 0;
+    width: 100%;
+    background: white;
 
-    background: $dark-grey;
-    height: 100%;
+    .footer-top {
+      display: flex;
+      width: 100%;
 
-    .container {
+      h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 25px;
+      }
 
-      width: 67%;
-      .footer-avence {
+      p {
+        color: #6F6F6F;
+        font-weight: 300;
+        font-size: 15px;
+      }
 
-        width: 100%;
+      .over-ons {
+        width: 50%;
 
-        ul {
-
-          li {
-
-            color: #C4C4C4;
-            font-size: 13px;
-            font-weight: 300;
-            list-style: none;
-
-            a{
-              color: #C4C4C4;
-              text-decoration: none;
-              font-weight: 300;
-              font-size: 13px;
-            }
-
-            span {
-              font-weight: 400;
-              font-size: 20px;
-              color: white;
-            }
-          }
+        p {
+          font-size: 12px;
+          width: 75%;
         }
       }
-      
-      
-      .footer-bottom{
-        p{
-          color: #6F6F6F;
 
-          a{
+      .support {
+        width: 25%;
+        margin-bottom: 50px;
+
+        .support-content {
+          display: flex;
+          width: 100%;
+
+          p {
+            font-size: 12px;
+          }
+
+          .pre-support {
+            width: 23%;
+
+            p {
+              font-weight: 500;
+            }
+
+          }
+
+          .support-info {
+            width: 77%;
+
+            a{
+              font-size: 12px;
+            }
+
+          }
+
+          a {
+            font-weight: 300;
             color: #6F6F6F;
             text-decoration: none;
           }
 
+          a:hover {
+            color: $blue;
+            transition: 0.6s;
+          }
+
         }
       }
-      
+      .bekijk-ook {
+        width: 25%;
+
+        ul {
+          li {
+            list-style: none;
+            margin-bottom: 5px;
+            a {
+              color: #6F6F6F;
+              text-decoration: none;
+              font-weight: 300;
+              font-size: 12px;
+            }
+
+            a:hover {
+              color: $blue;
+              transition: 0.6s;
+            }
+          }
+        }
+
+      }
+
     }
+
+    .footer-bottom {
+      padding: 30px 0 0 0;
+      display: flex;
+      width: 100%;
+
+      p {
+        color: #6F6F6F;
+        font-weight: 300;
+        font-size: 11px;
+      }
+
+      a {
+        color: #6F6F6F;
+        font-weight: 300;
+        font-size: 11px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: $blue;
+        transition: 0.6s;
+      }
+    }
+
   }
+
 }

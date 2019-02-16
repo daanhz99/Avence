@@ -1,174 +1,139 @@
-nav {
-  position: absolute;
-  height: 70px;
-  background: $white;
-  width: 100%;
+@media (min-width: 950px) {
 
-  .container {
-    display: flex;
-    justify-content: space-between;
+  header {
 
-    .avence-logo {
-      margin-top: 20px;
-      height: 27px;
-      width: auto;
-    }
+    -webkit-box-shadow: 0px 6px 21px -4px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 0px 6px 21px -4px rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 6px 21px -4px rgba(0, 0, 0, 0.20);
 
-    .avence-menu {
-      margin-top: 12px;
-
-      ul {
-
-        .button{
-          opacity: 0.8;
-        }
-
-        .button:hover{
-          opacity: 1;
-          transition: 0.6s;
-        }
-
-        li {
-          display: inline-block;
-          margin-left: 19px;
-
-          &:hover {
-            cursor: pointer;
-          }
-
-          a {
-            color: $dark-grey;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 300;
-            padding: 5px 10px;
-
-          }
-
-          a:hover {
-            color: $grey;
-            transition: 0.6s;
-          }
-          
-        }
-      }
-    }
-
-    .avence-klantenLogin {
-      opacity: 0.9;
-
-      margin-top: 25px;
-      a {
-        color: white;
-        text-decoration: none;
-        font-weight: 300;
-        font-size: 14px;
-      }
-    }
-
-    .avence-klantenLogin:hover {
-      opacity: 1.3;
-      transition: 0.6s;
-    }
-
-    .menu {
-      display: none;
-    }
-
-  }
-}
-
-@media (max-width: 977px) {
-
-  nav {
-    .container {
-      .avence-menu {
-        display: none;
-      }
-      .avence-klantenLogin {
-        display: none;
-      }
-
-      .menu{
-        display: block;
-        margin-top: 20px;
-
-        i{
-          color: $dark-grey;
-        }
-      }
-
-    }
-  }
-}
-
-/**
-
-    Menu on small screens
-
- */
-
-.menu-sm {
-  display: none;
-  z-index: 1;
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-
-  background-color: white;
-
-  //-webkit-transition: all 0.6s ease-in-out;
-  //-moz-transition: all 0.6s ease-in-out;
-  //-ms-transition: all 0.6s ease-in-out;
-  //-o-transition: all 0.6s ease-in-out;
-  //transition: all 0.6s ease-in-out;
-
-  .close-button {
     position: absolute;
-    top: 20px;
-    right: 40px;
-    
-    &:hover {
-      cursor: pointer;
-    }
-  }
+    width: 100%;
+    background: white;
+    height: 85px;
 
-  .menu {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    ul {
+    .container {
       height: 100%;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      list-style-type: none;
+      justify-content: space-between;
 
-      & li {
-        margin-top: 10px;
-        font-weight: 300;
-
-        &:hover {
-          cursor: pointer;
+      .avence-logo {
+        margin: auto 0;
+        width: 130px;
+        svg {
+          width: 100%;
         }
-        
-        &:last-child {
-          margin-top: 20px;
-          //font-size: 30px;
+      }
 
-          & a {
-            font-size: 20px;
+      .avence-menu {
+        width: 700px;
+        margin: auto 0;
+
+        ul {
+          text-align: right;
+          li {
+            display: inline-block;
+            margin-left: 10px;
+
+            a {
+              text-decoration: none;
+              color: $black;
+              font-size: 14px;
+              font-weight: 300;
+              padding: 5px 10px;
+            }
+
+            a:hover {
+              color: $blue;
+              transition: 0.6s;
+            }
+
           }
+
+          .afspraak-maken-button {
+            border: 2px solid $blue;
+            padding: 10px;
+            border-radius: 5px;
+            margin-left: 30px;
+            a {
+              padding: 10px 30px;
+              color: $blue;
+              font-weight: 500;
+            }
+          }
+
+          .afspraak-maken-button:hover {
+            border: 2px solid $blue;
+            padding: 10px;
+            background: $blue;
+            transition: 0.6s;
+            border-radius: 5px;
+            a {
+              padding: 10px 30px;
+              color: white;
+              font-weight: 500;
+            }
+          }
+
+          .phone-menu {
+            display: none;
+          }
+
         }
+
       }
 
-      a {
-        text-decoration: none;
-        color: #000000;
-        font-size: 30px;
-      }
     }
   }
 }
+
+@media (max-width: 949px) {
+
+  header {
+    position: absolute;
+    width: 100%;
+    background: white;
+    height: 85px;
+
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .avence-logo {
+        width: 400px;
+        margin: auto 0;
+
+        svg {
+        }
+      }
+
+      .avence-menu {
+        width: 700px;
+        margin: auto 0;
+
+        ul {
+          text-align: right;
+          li {
+            display: none;
+
+            a {
+              text-decoration: none;
+              color: $black;
+              font-size: 14px;
+              font-weight: 300;
+            }
+
+          }
+          .phone-menu {
+            display: block;
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+}
+

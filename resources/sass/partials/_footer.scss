@@ -1,3 +1,132 @@
+@media (max-width: 800px) {
+
+  footer {
+    padding: 100px 0 50px 0;
+    width: 100%;
+    background: white;
+
+    .footer-top {
+      display: block;
+      width: 100%;
+
+      h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 25px;
+      }
+
+      p {
+        color: #6F6F6F;
+        font-weight: 300;
+        font-size: 15px;
+      }
+
+      .over-ons {
+        width: 100%;
+        margin-bottom: 50px;
+
+        p {
+          font-size: 12px;
+          width: 100%;
+        }
+      }
+
+      .support {
+        width: 100%;
+        margin-bottom: 50px;
+
+        .support-content {
+          display: flex;
+          width: 100%;
+
+          p {
+            font-size: 12px;
+          }
+
+          .pre-support {
+            width: 23%;
+
+            p {
+              font-weight: 500;
+            }
+
+          }
+
+          .support-info {
+            width: 77%;
+
+            a{
+              font-size: 12px;
+            }
+
+          }
+
+          a {
+            font-weight: 300;
+            color: #6F6F6F;
+            text-decoration: none;
+          }
+
+          a:hover {
+            color: $blue;
+            transition: 0.6s;
+          }
+
+        }
+      }
+      .bekijk-ook {
+        width: 100%;
+
+        ul {
+          li {
+            list-style: none;
+            margin-bottom: 5px;
+            a {
+              color: #6F6F6F;
+              text-decoration: none;
+              font-weight: 300;
+              font-size: 12px;
+            }
+
+            a:hover {
+              color: $blue;
+              transition: 0.6s;
+            }
+          }
+        }
+
+      }
+
+    }
+
+    .footer-bottom {
+      padding: 30px 0 0 0;
+      display: flex;
+      width: 100%;
+
+      p {
+        color: #6F6F6F;
+        font-weight: 300;
+        font-size: 11px;
+      }
+
+      a {
+        color: #6F6F6F;
+        font-weight: 300;
+        font-size: 11px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: $blue;
+        transition: 0.6s;
+      }
+    }
+
+  }
+
+}
+
 @media (min-width: 800px) {
 
   footer {

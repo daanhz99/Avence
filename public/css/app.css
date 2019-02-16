@@ -405,6 +405,127 @@
   }
 }
 
+@media (max-width: 800px) {
+  footer {
+    padding: 100px 0 50px 0;
+    width: 100%;
+    background: white;
+  }
+
+  footer .footer-top {
+    display: block;
+    width: 100%;
+  }
+
+  footer .footer-top h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+
+  footer .footer-top p {
+    color: #6F6F6F;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  footer .footer-top .over-ons {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  footer .footer-top .over-ons p {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  footer .footer-top .support {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  footer .footer-top .support .support-content {
+    display: flex;
+    width: 100%;
+  }
+
+  footer .footer-top .support .support-content p {
+    font-size: 12px;
+  }
+
+  footer .footer-top .support .support-content .pre-support {
+    width: 23%;
+  }
+
+  footer .footer-top .support .support-content .pre-support p {
+    font-weight: 500;
+  }
+
+  footer .footer-top .support .support-content .support-info {
+    width: 77%;
+  }
+
+  footer .footer-top .support .support-content .support-info a {
+    font-size: 12px;
+  }
+
+  footer .footer-top .support .support-content a {
+    font-weight: 300;
+    color: #6F6F6F;
+    text-decoration: none;
+  }
+
+  footer .footer-top .support .support-content a:hover {
+    color: #1E92E6;
+    transition: 0.6s;
+  }
+
+  footer .footer-top .bekijk-ook {
+    width: 100%;
+  }
+
+  footer .footer-top .bekijk-ook ul li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+
+  footer .footer-top .bekijk-ook ul li a {
+    color: #6F6F6F;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  footer .footer-top .bekijk-ook ul li a:hover {
+    color: #1E92E6;
+    transition: 0.6s;
+  }
+
+  footer .footer-bottom {
+    padding: 30px 0 0 0;
+    display: flex;
+    width: 100%;
+  }
+
+  footer .footer-bottom p {
+    color: #6F6F6F;
+    font-weight: 300;
+    font-size: 11px;
+  }
+
+  footer .footer-bottom a {
+    color: #6F6F6F;
+    font-weight: 300;
+    font-size: 11px;
+    text-decoration: none;
+  }
+
+  footer .footer-bottom a:hover {
+    color: #1E92E6;
+    transition: 0.6s;
+  }
+}
+
 @media (min-width: 800px) {
   footer {
     padding: 100px 0 50px 0;
@@ -580,7 +701,7 @@
 
   .landing .landing-text p {
     text-align: center;
-    width: 70%;
+    width: 100%;
     margin: 20px auto 50px auto;
   }
 
@@ -622,42 +743,83 @@
   }
 }
 
-.testimonials {
-  padding: 60px 0;
+@media (max-width: 800px) {
+  .testimonials {
+    padding: 60px 0;
+  }
+
+  .testimonials .testimonials-content h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .testimonials .testimonials-content p {
+    text-align: center;
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .testimonials .testimonials-content span {
+    color: #1E92E6;
+    font-weight: 300;
+  }
+
+  .testimonials .testimonials-content h6 {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .testimonials .testimonials-content h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
-.testimonials .testimonials-content h1 {
-  text-align: center;
-  width: 40%;
-  margin: 0 auto;
-}
+@media (min-width: 800px) {
+  .testimonials {
+    padding: 60px 0;
+  }
 
-.testimonials .testimonials-content p {
-  text-align: center;
-  width: 60%;
-  margin: 50px auto;
-}
+  .testimonials .testimonials-content h1 {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+  }
 
-.testimonials .testimonials-content span {
-  color: #1E92E6;
-  font-size: 30px;
-  font-weight: 300;
-}
+  .testimonials .testimonials-content p {
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+  }
 
-.testimonials .testimonials-content h6 {
-  color: #707070;
-  font-size: 16px;
-  font-weight: 300;
-  text-align: center;
-  margin: 0 auto;
-}
+  .testimonials .testimonials-content span {
+    color: #1E92E6;
+    font-size: 30px;
+    font-weight: 300;
+  }
 
-.testimonials .testimonials-content h5 {
-  color: #000;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  margin: 0 auto;
+  .testimonials .testimonials-content h6 {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .testimonials .testimonials-content h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -864,13 +1026,13 @@
   }
 
   .waarom-avence .container .waarom-avence-content .wac-topic svg {
-    width: 25px;
+    width: 20px;
   }
 
   .waarom-avence .container .waarom-avence-content .wac-topic h2 {
     color: white;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     margin: 10px 0;
   }
 

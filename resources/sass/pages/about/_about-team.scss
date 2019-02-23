@@ -36,3 +36,47 @@
     }
   }
 }
+
+.ons-team {
+
+  h1 {
+    text-align: center;
+    margin: 100px 0 25px 0;
+  }
+  p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 30px auto;
+  }
+
+  .ons-team-foto{
+    width: 100%;
+    display: flex;
+
+    .team-member{
+      width: 25%;
+      text-align: center;
+
+      img{
+        width: 200px;
+        height: 200px;
+        margin: 40px 0 20px 0;
+      }
+
+      h4{
+        color: $grey;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      p{
+        color: $grey;
+        font-weight: 300;
+        font-size: 14px;
+      }
+
+    }
+
+  }
+
+}

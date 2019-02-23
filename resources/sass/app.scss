@@ -1,5 +1,6 @@
 $black: #000;
 $blue: #1E92E6;
+$grey: #6F6F6F;
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import '~slick-carousel/slick/slick';
@@ -12,7 +13,10 @@ $blue: #1E92E6;
 @import 'pages/home/home-recensies';
 @import 'pages/home/home-responsive';
 @import 'pages/home/home-afspraak-maken';
-@import 'pages/home/home-waarom-avence';
+@import 'pages/home/home-contact';
+@import 'pages/about/about';
+@import 'pages/about/about-team';
+@import 'pages/diensten/diensten';
 
 * {
   font-family: "Open Sans", "Arial";
@@ -37,6 +41,21 @@ $blue: #1E92E6;
 
 //PARAGRAPHS
 
+
+.page-text-small{
+  font-size: 15px;
+  color: $grey;
+  font-weight: 300;
+}
+
+.page-text-big{
+  font-size: 18px;
+  color: $grey;
+  font-weight: 300;
+}
+
+//P-M
+
 @media (max-width: 800px) {
 
   h1 {
@@ -46,26 +65,41 @@ $blue: #1E92E6;
     line-height: 32px;
   }
 
+  h2{
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
   p{
     font-weight: 200;
     font-size: 16px;
-    color: black;
+    color: $grey;
   }
 }
 
 @media (min-width: 800px) {
 
   h1 {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 700;
     color: black;
     line-height: 35px;
+  }
+  h2{
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
   }
 
   p{
     font-weight: 200;
     font-size: 14px;
-    color: black;
+    color: $grey;
   }
 }
 
@@ -73,16 +107,24 @@ $blue: #1E92E6;
 @media (min-width: 1000px) {
 
   h1 {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 35px;
     color: black;
   }
 
+  h2{
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
   p{
     font-weight: 200;
     font-size: 16px;
-    color: black;
+    color: $grey;
   }
 }
 
@@ -90,16 +132,23 @@ $blue: #1E92E6;
 @media (min-width: 1200px) {
 
   h1 {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     color: black;
     line-height: 40px;
+  }
+  h2{
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
   }
 
   p{
     font-weight: 200;
     font-size: 18px;
-    color: black;
+    color: $grey;
   }
 }
 
@@ -107,16 +156,24 @@ $blue: #1E92E6;
 @media (min-width: 1400px) {
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     color: black;
     line-height: 50px;
   }
 
+  h2{
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
   p{
     font-weight: 200;
     font-size: 18px;
-    color: black;
+    color: $grey;
   }
 }
 

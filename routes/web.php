@@ -13,3 +13,4 @@
 
 Route::view('/', 'portal.pages.home');
 Route::view('/about', 'portal.pages.about');
+Route::view('/services', 'portal.pages.diensten');

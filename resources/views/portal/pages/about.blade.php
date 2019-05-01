@@ -1,112 +1,88 @@
 @extends('portal.layouts.layout')
-
 @section('content')
 
-
-    <section class="about">
-        <div class="about-header">
-            <div class="container">
-                <h1>Aangenaam, wij zijn Avence.</h1>
-                <p>Avence is een team van developers en designers die nauw samenwerken. Wij focussen op het
-                    ontwikkelen
-                    van maatwerk websites en webapplicaties. </p>
-            </div>
-        </div>
-        <div class="about-content">
-            <div class="container">
-                <h1>Over ons</h1>
-                <div class="about-content-text">
-                    <div class="about-content-left">
-                        <h2>Wat bieden wij?</h2>
-                        <p class="page-text-small">Avence is een team van developers en designers die nauw samenwerken.
-                            Wij focussen op het
-                            ontwikkelen van maatwerk websites en webapplicaties.
-                            Doordat wij op de hoogte zijn van de laatste trends, kunt u rekenen op een goedwerkende
-                            website die geschikt is voor elk scherm.
-                            Door uw wensen te combineren met onze kwaliteiten, kunnen wij uw project succesvol
-                            realiseren.
-                            Door middel van korte communicatielijnen tussen klant en ontwikkelaar, kunnen wij u snel en
-                            efficiënt in uw wensen voorzien.</p>
-                        <a href="#">> Diensten </a>
-                    </div>
-                    <div class="about-content-right">
-                        <h2>Support</h2>
-                        <div class="about-content-right-flex">
-                            <div class="about-right-1">
-                                <ul>
-                                    <li>Email:</li>
-                                    <li>Telefoon:</li>
-                                    <br>
-                                    <li>BTW:</li>
-                                    <li>KvK:</li>
-                                    <br>
-                                    <li><a href="#">> Portfolio</a></li>
-                                    <li>  <a href="#">> Diensten</a></li>
-                                </ul>
-                            </div>
-                            <div class="about-right-2">
-                                <ul>
-                                    <li><a href="#">info@avence.nl</a></li>
-                                    <li><a href="#">+31 6 40 95 19 25</a>></li>
-                                    <br>
-                                    <li>NL247349215B01</li>
-                                    <li>72630655</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ons-team">
-            <div class="container">
-                <h1>Ons team.</h1>
-                <p class="page-text-small">Avence is een team van developers en designers die nauw samenwerken. Wij
-                    focussen op het ontwikkelen
+    <div class="about-us">
+        <div class="container">
+            <div class="about-us-content">
+                <h1>Over Ons</h1>
+                <p>Avence is een team van developers en designers die nauw samenwerken. Wij focussen op het ontwikkelen
                     van maatwerk websites en webapplicaties.
                 </p>
-
-                <div class="ons-team-foto">
-                    <div class="team-member">
-                        <img src="/images/pages/about/guus.jpg" alt="#">
-                        <h4>Guus Huizen</h4>
-                        <p>Developer</p>
-                    </div>
-                    <div class="team-member">
-                        <img src="/images/pages/about/daan.jpg" alt="#">
-                        <h4>Daan Huizen</h4>
-                        <p>Developer & Designer</p>
-                    </div>
-                    <div class="team-member">
-                        <img src="/images/pages/about/guus.jpg" alt="#">
-                        <h4>Guus Huizen</h4>
-                        <p>Developer</p>
-                    </div>
-                    <div class="team-member">
-                        <img src="/images/pages/about/daan.jpg" alt="#">
-                        <h4>Daan Huizen</h4>
-                        <p>Developer & Designer</p>
-                    </div>
-                </div>
-
             </div>
         </div>
-        <div class="contact-ons">
-            <div class="container">
-                <div class="text-container">
-                    <div class="ontdek-ons">
-                        <div class="ontdenk-ons-text">
-                            <h3>Ontdenk Avence.</h3>
-                            <p>Maak een gratis afspraak om uw project te bespreken. </p>
-                        </div>
-                        <div class="ontdenk-ons-button">
-                            <a class="button white" href="#">Contact</a>
-                        </div>
-                    </div>
+    </div>
+
+    <div class="about-us-landing">
+        <div class="container">
+            <div class="about-us-landing-content">
+                <div class="about-us-left">
+                    <h1>Aangenaam,<br>wij zijn Avence.</h1>
+                    <p>Avence is een team van developers en designers die nauw samenwerken. Wij focussen op het
+                        ontwikkelen van maatwerk websites en webapplicaties. Doordat wij op de hoogte zijn van de
+                        laatste trends, kunt u rekenen op een goedwerkende website die geschikt is voor elk scherm. Door
+                        uw wensen te combineren met onze kwaliteiten, kunnen wij uw project succesvol realiseren. Door
+                        middel van korte communicatielijnen tussen klant en ontwikkelaar, kunnen wij u snel en efficiënt
+                        in uw wensen voorzien.</p>
+                    <a class="about-us-contact" href="#">Contact</a>
+                </div>
+                <div class="about-us-right">
+                    <img src="/images/about/computer.png" alt="#">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <div class="ontworpen-voor-elk-toestel-bg">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1453" height="207.464"
+             viewBox="0 0 1453 207.464">
+            <defs>
+                <filter id="Path_297" x="0" y="0" width="1453" height="207.464" filterUnits="userSpaceOnUse">
+                    <feOffset dy="15" input="SourceAlpha"/>
+                    <feGaussianBlur stdDeviation="14.5" result="blur"/>
+                    <feFlood flood-opacity="0.043"/>
+                    <feComposite operator="in" in2="blur"/>
+                    <feComposite in="SourceGraphic"/>
+                </filter>
+            </defs>
+            <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_297)">
+                <path id="Path_297-2" data-name="Path 297"
+                      d="M0,547.361H1366v85.768s-155.945,34.7-385.828,34.7-289.8-5.928-533.7-34.7S0,646,0,646Z"
+                      transform="translate(43.5 -518.86)" fill="#fff"/>
+            </g>
+        </svg>
+    </div>
+
+    <div class="our-team">
+        <div class="container">
+            <div class="our-team-top">
+                <h1>Ons team.</h1>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </p>
+            </div>
+            <div class="our-team-bottom">
+                <div class="team-member">
+                    <img src="../images/about/Avatar.png" alt="">
+                    <h4>Name</h4>
+                    <p>Function</p>
+                </div>
+                <div class="team-member">
+                    <img src="../images/about/Avatar.png" alt="">
+                    <h4>Name</h4>
+                    <p>Function</p>
+                </div>
+                <div class="team-member">
+                    <img src="../images/about/Avatar.png" alt="">
+                    <h4>Name</h4>
+                    <p>Function</p>
+                </div>
+                <div class="team-member">
+                    <img src="../images/about/Avatar.png" alt="">
+                    <h4>Name</h4>
+                    <p>Function</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    @include('portal.partials.ontdenk-avence')
 @endsection

@@ -1,0 +1,545 @@
+@media (min-width: 1300px) {
+
+  .contact-landing {
+    height: 65vh;
+    background-image: linear-gradient(rgba(104, 183, 250, 0.96), rgba(38, 153, 251, 0.95)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/contact/background.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    h1, p {
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      width: 70%;
+      margin: 10px auto;
+    }
+  }
+
+  .contact-content {
+    padding: 100px 0 20px 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+
+    .contact-content-middle {
+      width: 100%;
+      display: flex;
+
+      .contact-map {
+        margin-top: -125px;
+        width: 60%;
+
+
+        iframe {
+          width: 600px;
+          height: 600px;
+          border: 1px solid transparent;
+          border-radius: 5px;
+          -webkit-box-shadow: 0px 0px 10px -5px rgb(152, 152, 152);
+          -moz-box-shadow: 0px 0px 10px -5px rgb(154, 154, 154);
+          box-shadow: 0px 0px 10px -5px rgb(128, 128, 128);
+        }
+      }
+
+      .contact-message {
+        width: 40%;
+
+        p {
+          width: 100%;
+          margin: 0;
+        }
+      }
+
+      .contact-message-content {
+        padding: 40px 0;
+        width: 100%;
+
+        form {
+
+          width: 80%;
+
+          input, textarea {
+            margin-bottom: 20px;
+            width: 100%;
+            border: 0.5px solid #919191;
+            border-radius: 5px;
+            text-indent: 10px;
+            padding: 10px 0;
+          }
+
+          ::placeholder {
+            font-size: 12px;
+            color: #6F6F6F;
+            font-weight: 300;
+          }
+
+          textarea {
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 150px;
+          }
+
+          .full-name {
+            display: flex;
+            justify-content: space-between;
+
+            input {
+              width: 48%;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+@media (max-width: 1299px) {
+
+  .contact-landing {
+    height: 65vh;
+    background-image: linear-gradient(rgba(104, 183, 250, 0.96), rgba(38, 153, 251, 0.95)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/contact/background.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    h1, p {
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      width: 70%;
+      margin: 10px auto;
+    }
+  }
+
+  .contact-content {
+    padding: 100px 0 20px 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+
+    .contact-content-middle {
+      width: 100%;
+      display: flex;
+
+      .contact-map {
+        margin-top: -125px;
+        width: 60%;
+
+
+        iframe {
+          width: 500px;
+          height: 600px;
+          border: 1px solid transparent;
+          border-radius: 5px;
+          -webkit-box-shadow: 0px 0px 10px -5px rgb(152, 152, 152);
+          -moz-box-shadow: 0px 0px 10px -5px rgb(154, 154, 154);
+          box-shadow: 0px 0px 10px -5px rgb(128, 128, 128);
+        }
+      }
+
+      .contact-message {
+        width: 40%;
+
+        p {
+          width: 100%;
+          margin: 0;
+        }
+      }
+
+      .contact-message-content {
+        padding: 40px 0;
+        width: 100%;
+
+        form {
+
+          width: 90%;
+
+          input, textarea {
+            margin-bottom: 20px;
+            width: 100%;
+            border: 0.5px solid #919191;
+            border-radius: 5px;
+            text-indent: 10px;
+            padding: 10px 0;
+          }
+
+          ::placeholder {
+            font-size: 12px;
+            color: #6F6F6F;
+            font-weight: 300;
+          }
+
+          textarea {
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 150px;
+          }
+
+          .full-name {
+            display: flex;
+            justify-content: space-between;
+
+            input {
+              width: 48%;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+
+  .contact-landing {
+    height: 65vh;
+    background-image: linear-gradient(rgba(104, 183, 250, 0.96), rgba(38, 153, 251, 0.95)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/contact/background.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    h1, p {
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      width: 70%;
+      margin: 10px auto;
+    }
+  }
+
+  .contact-content {
+    padding: 100px 0 20px 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+
+    .contact-content-middle {
+      width: 100%;
+      display: flex;
+
+      .contact-map {
+        width: 60%;
+        margin: 0;
+
+
+        iframe {
+          width: 450px;
+          height: 500px;
+          border: 1px solid transparent;
+          border-radius: 5px;
+          -webkit-box-shadow: 0px 0px 10px -5px rgb(152, 152, 152);
+          -moz-box-shadow: 0px 0px 10px -5px rgb(154, 154, 154);
+          box-shadow: 0px 0px 10px -5px rgb(128, 128, 128);
+        }
+      }
+
+      .contact-message {
+        width: 40%;
+
+        p {
+          width: 100%;
+          margin: 0;
+        }
+      }
+
+      .contact-message-content {
+        padding: 40px 0;
+        width: 100%;
+
+        form {
+
+          width: 100%;
+
+          input, textarea {
+            margin-bottom: 20px;
+            width: 100%;
+            border: 0.5px solid #919191;
+            border-radius: 5px;
+            text-indent: 10px;
+            padding: 10px 0;
+          }
+
+          ::placeholder {
+            font-size: 12px;
+            color: #6F6F6F;
+            font-weight: 300;
+          }
+
+          textarea {
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 150px;
+          }
+
+          .full-name {
+            display: flex;
+            justify-content: space-between;
+
+            input {
+              width: 48%;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .contact-landing {
+    height: 65vh;
+    background-image: linear-gradient(rgba(104, 183, 250, 0.96), rgba(38, 153, 251, 0.95)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/contact/background.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    h1, p {
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      width: 70%;
+      margin: 10px auto;
+    }
+  }
+
+  .contact-content {
+    padding: 100px 0 20px 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+
+
+
+    .contact-content-middle {
+      width: 100%;
+      display: block;
+
+      .contact-map {
+        width: 100vw;
+        margin-left: -12%;
+
+
+
+        iframe {
+          width: 100%;
+          height: 300px;
+          border: 1px solid transparent;
+          border-radius: 5px;
+          -webkit-box-shadow: 0px 0px 10px -5px rgb(152, 152, 152);
+          -moz-box-shadow: 0px 0px 10px -5px rgb(154, 154, 154);
+          box-shadow: 0px 0px 10px -5px rgb(128, 128, 128);
+        }
+      }
+
+      .contact-message {
+        width: 100%;
+        padding-top: 50px;
+
+        p {
+          width: 100%;
+          margin: 0;
+        }
+      }
+
+      .contact-message-content {
+        padding: 40px 0;
+        width: 100%;
+
+        form {
+
+          width: 100%;
+
+          input, textarea {
+            margin-bottom: 20px;
+            width: 100%;
+            border: 0.5px solid #919191;
+            border-radius: 5px;
+            text-indent: 10px;
+            padding: 10px 0;
+          }
+
+          ::placeholder {
+            font-size: 12px;
+            color: #6F6F6F;
+            font-weight: 300;
+          }
+
+          textarea {
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 150px;
+          }
+
+          .full-name {
+            display: flex;
+            justify-content: space-between;
+
+            input {
+              width: 48%;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+
+//ontdenk avence
+
+.ontdek-avence-contact {
+  @media (min-width: 800px) {
+
+    .ontdek-avence-background {
+      max-width: 100%;
+      width: 100%;
+
+      svg {
+        transform: scale(1.05);
+        height: 100%;
+      }
+    }
+
+    .ontdek-avence {
+      padding-bottom: 100px;
+      height: 100%;
+
+      .ontdek-avence-content {
+        align-content: center;
+        align-items: center;
+        background: white;
+        display: flex;
+        display: flex;
+        width: 100%;
+
+        .ontdek-avence-picture {
+          width: 50%;
+          text-align: center;
+
+          img {
+            width: 65%;
+          }
+        }
+
+        .ontdek-avence-text {
+          width: 50%;
+
+          h1 {
+
+          }
+
+          p {
+            margin: 30px 0 40px 0;
+          }
+
+          .gratis-afspraak-maken {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 12px;
+            border-radius: 5px;
+            background: #2699FB;
+            color: white;
+            border: 1px solid #68B7FA;
+            padding: 10px 50px;
+            margin-right: 10px;
+          }
+
+        }
+      }
+    }
+  }
+
+  @media (max-width: 800px) {
+
+    .ontdek-avence-background {
+      max-width: 100%;
+      width: 100%;
+
+      svg {
+        transform: scale(1.05);
+        height: 100%;
+      }
+    }
+
+    .ontdek-avence {
+      padding-bottom: 100px;
+      height: 100%;
+
+      .ontdek-avence-content {
+        align-content: center;
+        align-items: center;
+        background: white;
+        display: block;
+        width: 100%;
+
+        .ontdek-avence-picture {
+          width: 100%;
+          text-align: center;
+
+          img {
+            width: 65%;
+          }
+        }
+
+        .ontdek-avence-text {
+          width: 100%;
+
+          h1 {
+            margin-top: 30px;
+          }
+
+          p {
+            margin: 30px 0 40px 0;
+          }
+
+          .gratis-afspraak-maken {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 12px;
+            border-radius: 5px;
+            background: #2699FB;
+            color: white;
+            border: 1px solid #68B7FA;
+            padding: 10px 50px;
+            margin-right: 10px;
+          }
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,252 @@
+@media (min-width: 1400px) {
+
+  .ontworpen-voor-elk-toestel {
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    background: white;
+    display: flex;
+    padding: 60px 0;
+
+
+    .ontwerpen-voor-elk-toestel-content {
+      display: flex;
+      width: 100%;
+
+
+      .ontwerpen-voor-elk-toestel-content-1 {
+        width: 50%;
+
+        p {
+          width: 87%;
+          margin: 18px 0 55px 0;
+        }
+
+        .ontworpen-voor-elk-toestel-buttons {
+          a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 12px;
+            border-radius: 5px;
+          }
+
+          .elk-toestel-diensten {
+            background: #2699FB;
+            color: white;
+            border: 1px solid #68B7FA;
+            padding: 10px 50px;
+            margin-right: 10px;
+          }
+
+          .elk-toestel-diensten:hover {
+            color: white;
+            transition: 0.6s;
+
+          }
+
+          .elk-toestel-portfolio {
+            background: transparent;
+            color: #535353;
+            border: 1px solid #535353;
+            padding: 10px 50px;
+
+          }
+        }
+
+      }
+
+      .ontwerpen-voor-elk-toestel-content-2 {
+        width: 50%;
+
+        text-align: center;
+
+        img {
+          width: 535px;
+          height: auto;
+        }
+
+      }
+    }
+  }
+  .ontworpen-voor-elk-toestel-bg {
+    max-width: 100%;
+    width: 100%;
+
+    svg {
+      transform: scale(1.2);
+    }
+  }
+
+}
+
+
+@media (max-width: 1399px) {
+
+  .ontworpen-voor-elk-toestel {
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    background: white;
+    display: flex;
+    padding: 60px 0;
+
+
+    .ontwerpen-voor-elk-toestel-content {
+      display: flex;
+      width: 100%;
+      align-content: center;
+      align-items: center;
+
+      .ontwerpen-voor-elk-toestel-content-1 {
+        width: 50%;
+
+        p {
+          width: 87%;
+          margin: 18px 0 55px 0;
+        }
+
+        .ontworpen-voor-elk-toestel-buttons {
+          a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 12px;
+            border-radius: 5px;
+          }
+
+          .elk-toestel-diensten {
+            background: #2699FB;
+            color: white;
+            border: 1px solid #68B7FA;
+            padding: 10px 50px;
+            margin-right: 10px;
+          }
+
+          .elk-toestel-diensten:hover {
+            color: white;
+            transition: 0.6s;
+
+          }
+
+          .elk-toestel-portfolio {
+            background: transparent;
+            color: #535353;
+            border: 1px solid #535353;
+            padding: 10px 50px;
+
+          }
+        }
+
+      }
+
+      .ontwerpen-voor-elk-toestel-content-2 {
+        width: 50%;
+
+        text-align: center;
+
+        img {
+          width: 90%;
+        }
+
+      }
+    }
+  }
+  .ontworpen-voor-elk-toestel-bg {
+    max-width: 100%;
+    width: 100%;
+
+    svg {
+      transform: scale(1.2);
+    }
+  }
+
+}
+
+
+
+@media (max-width: 800px) {
+
+  .ontworpen-voor-elk-toestel {
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    background: white;
+    display: flex;
+    padding: 60px 0;
+
+
+    .ontwerpen-voor-elk-toestel-content {
+      display: block;
+      width: 100%;
+      align-content: center;
+      align-items: center;
+
+      .ontwerpen-voor-elk-toestel-content-1 {
+        width: 100%;
+
+        h1{
+          text-align: left;
+        }
+        p {
+          text-align: left;
+          width: 100%;
+          margin: 18px 0 55px 0;
+        }
+
+        .ontworpen-voor-elk-toestel-buttons {
+          margin-bottom: 100px;
+          text-align: left;
+          a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 12px;
+            border-radius: 5px;
+          }
+
+          .elk-toestel-diensten {
+            background: #2699FB;
+            color: white;
+            border: 1px solid #68B7FA;
+            padding: 10px 50px;
+            margin: 0;
+            display: none;
+          }
+
+          .elk-toestel-diensten:hover {
+            color: white;
+            transition: 0.6s;
+
+          }
+
+          .elk-toestel-portfolio {
+            background: #2699FB;
+            color: white;
+            border: 1px solid #68B7FA;
+            padding: 10px 50px;
+
+          }
+        }
+
+      }
+
+      .ontwerpen-voor-elk-toestel-content-2 {
+        width: 100%;
+
+        text-align: center;
+
+        img {
+          width: 90%;
+        }
+
+      }
+    }
+  }
+  .ontworpen-voor-elk-toestel-bg {
+    max-width: 100%;
+    width: 100%;
+
+    svg {
+      transform: scale(1.2);
+    }
+  }
+
+}

@@ -1,0 +1,294 @@
+@media (min-width: 1400px) {
+
+  .landing {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 00, 0.75), rgba(0, 0, 0, 0.75)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/home/landingbg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .container {
+
+      h1 {
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        width: 70%;
+        margin: 10px auto 60px auto;
+      }
+
+      .landing-buttons {
+        text-align: center;
+        justify-content: space-between;
+
+        a {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 5px;
+        }
+
+        .landing-lees-meer {
+          background: transparent;
+          color: white;
+          border: 1px solid white;
+          padding: 10px 45px;
+          margin-left: 10px;
+        }
+
+        .landing-lees-meer:hover {
+          transition: 0.6s;
+          background: white;
+          color: #535353;
+        }
+
+        .landing-diensten {
+          background: transparent;
+          color: #68B7FA;
+          border: 1px solid #68B7FA;
+          padding: 10px 50px;
+          margin-left: 10px;
+        }
+
+        .landing-diensten:hover {
+          color: white;
+          transition: 0.6s;
+          background: #2699FB;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1399px) {
+
+  .landing {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 00, 0.75), rgba(0, 0, 0, 0.75)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/home/landingbg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .container {
+
+      h1 {
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: white;
+        text-align: center;
+        width: 70%;
+        margin: 10px auto 60px auto;
+        font-size: 24px;
+        font-weight: 300;
+      }
+
+      .landing-buttons {
+        text-align: center;
+        justify-content: space-between;
+
+        a {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 5px;
+        }
+
+        .landing-lees-meer {
+          background: transparent;
+          color: white;
+          border: 1px solid white;
+          padding: 10px 45px;
+          margin-left: 10px;
+        }
+
+        .landing-lees-meer:hover {
+          transition: 0.6s;
+          background: white;
+          color: #535353;
+        }
+
+        .landing-diensten {
+          background: transparent;
+          color: #68B7FA;
+          border: 1px solid #68B7FA;
+          padding: 10px 50px;
+          margin-left: 10px;
+        }
+
+        .landing-diensten:hover {
+          color: white;
+          transition: 0.6s;
+          background: #2699FB;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 800px) {
+
+  .landing {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 00, 0.75), rgba(0, 0, 0, 0.75)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/home/landingbg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .container {
+
+      h1 {
+        color: white;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+      }
+
+      p {
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        width: 100%;
+        margin: 10px auto 60px auto;
+      }
+
+      .landing-buttons {
+        text-align: center;
+        justify-content: space-between;
+
+        a {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 5px;
+        }
+
+        .landing-lees-meer {
+          background: transparent;
+          color: white;
+          border: 1px solid white;
+          padding: 10px 45px;
+          margin-left: 10px;
+        }
+
+        .landing-lees-meer:hover {
+          transition: 0.6s;
+          background: white;
+          color: #535353;
+        }
+
+        .landing-diensten {
+          background: transparent;
+          color: #68B7FA;
+          border: 1px solid #68B7FA;
+          padding: 10px 50px;
+          margin-left: 10px;
+        }
+
+        .landing-diensten:hover {
+          color: white;
+          transition: 0.6s;
+          background: #2699FB;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+
+  .landing {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 00, 0.75), rgba(0, 0, 0, 0.75)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/home/landingbg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .container {
+
+      h1 {
+        color: white;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+      }
+
+      p {
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        width: 100%;
+        margin: 10px auto 60px auto;
+      }
+
+      .landing-buttons {
+        text-align: center;
+        justify-content: space-between;
+
+        a {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 5px;
+        }
+
+        .landing-lees-meer {
+          display: none;
+          background: transparent;
+          color: white;
+          border: 1px solid white;
+          padding: 10px 45px;
+          margin-left: 10px;
+        }
+
+        .landing-lees-meer:hover {
+          transition: 0.6s;
+          background: white;
+          color: #535353;
+        }
+
+        .landing-diensten {
+          border: 1px solid #68B7FA;
+          padding: 10px 50px;
+          margin-left: 10px;
+
+          color: white;
+          background: #2699FB;
+        }
+      }
+    }
+  }
+}
+

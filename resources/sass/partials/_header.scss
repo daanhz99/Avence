@@ -1,139 +1,245 @@
-@media (min-width: 950px) {
-
+@media (min-width: 1200px) {
   header {
-
-    -webkit-box-shadow: 0px 6px 21px -4px rgba(0, 0, 0, 0.20);
-    -moz-box-shadow: 0px 6px 21px -4px rgba(0, 0, 0, 0.20);
-    box-shadow: 0px 6px 21px -4px rgba(0, 0, 0, 0.20);
-
     position: absolute;
+    height: 70px;
     width: 100%;
     background: white;
-    height: 85px;
 
     .container {
       height: 100%;
-      display: flex;
-      justify-content: space-between;
 
-      .avence-logo {
-        margin: auto 0;
-        width: 130px;
-        svg {
-          width: 100%;
+      .header-content {
+        height: 100%;
+        display: flex;
+        width: 100%;
+        padding-top: 7px;
+
+        .header-logo {
+          padding-top: 11px;
+          width: 20%;
+
+          img {
+            width: 136px;
+          }
         }
-      }
 
-      .avence-menu {
-        width: 700px;
-        margin: auto 0;
-
-        ul {
+        .header-menu {
           text-align: right;
-          li {
-            display: inline-block;
-            margin-left: 10px;
+          width: 80%;
 
-            a {
-              text-decoration: none;
-              color: $black;
-              font-size: 14px;
-              font-weight: 300;
-              padding: 5px 10px;
-            }
+          ul {
+            padding: 0;
+            display: inline-flex;
 
-            a:hover {
-              color: $blue;
-              transition: 0.6s;
-            }
+            li {
+              list-style: none;
+              margin-left: 20px;
 
-          }
+              a {
+                display: inline-block;
+                color: #535353;
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 12px;
+              }
 
-          .afspraak-maken-button {
-            border: 2px solid $blue;
-            padding: 10px;
-            border-radius: 5px;
-            margin-left: 30px;
-            a {
-              padding: 10px 30px;
-              color: $blue;
-              font-weight: 500;
-            }
-          }
+              .button-blue {
+                color: white;
+                margin-top: -7px;
+                margin-left: 30px;
+              }
 
-          .afspraak-maken-button:hover {
-            border: 2px solid $blue;
-            padding: 10px;
-            background: $blue;
-            transition: 0.6s;
-            border-radius: 5px;
-            a {
-              padding: 10px 30px;
-              color: white;
-              font-weight: 500;
+              .button-white {
+                margin-top: -7px;
+              }
             }
           }
-
-          .phone-menu {
-            display: none;
-          }
-
         }
-
       }
-
     }
   }
 }
 
-@media (max-width: 949px) {
-
+@media (max-width: 1199px) {
   header {
     position: absolute;
+    height: 70px;
     width: 100%;
     background: white;
-    height: 85px;
 
     .container {
       height: 100%;
-      display: flex;
-      justify-content: space-between;
 
-      .avence-logo {
-        width: 400px;
-        margin: auto 0;
+      .header-content {
+        height: 100%;
+        display: flex;
+        width: 100%;
+        padding-top: 7px;
 
-        svg {
+        .header-logo {
+          padding-top: 11px;
+          width: 20%;
+
+          img {
+            width: 136px;
+          }
         }
-      }
 
-      .avence-menu {
-        width: 700px;
-        margin: auto 0;
-
-        ul {
+        .header-menu {
           text-align: right;
-          li {
-            display: none;
+          width: 80%;
 
-            a {
-              text-decoration: none;
-              color: $black;
-              font-size: 14px;
-              font-weight: 300;
+          ul {
+            padding: 0;
+            display: inline-flex;
+
+            li {
+              list-style: none;
+              margin-left: 20px;
+
+              a {
+                display: inline-block;
+                color: #535353;
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 12px;
+              }
+
+              .button-blue {
+                color: white;
+                margin-top: -7px;
+                margin-left: 30px;
+              }
+
+              .button-white {
+                margin-top: -7px;
+              }
             }
-
           }
-          .phone-menu {
-            display: block;
-          }
-
         }
-
       }
-
     }
   }
-
 }
 
+@media (max-width: 1065px) {
+  header {
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background: white;
+
+    .container {
+      height: 100%;
+
+      .header-content {
+        height: 100%;
+        display: flex;
+        width: 100%;
+        padding-top: 7px;
+
+        .header-logo {
+          padding-top: 11px;
+          width: 20%;
+
+          img {
+            width: 136px;
+          }
+        }
+
+        .header-menu {
+          text-align: right;
+          width: 80%;
+
+          ul {
+            padding: 0;
+            display: inline-flex;
+
+            li {
+              list-style: none;
+              margin-left: 20px;
+
+              a {
+                display: inline-block;
+                color: #535353;
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 12px;
+              }
+
+              .button-blue {
+                color: white;
+                margin-top: -7px;
+                margin-left: 30px;
+              }
+
+              .button-white {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  header {
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background: white;
+
+    .container {
+      height: 100%;
+
+      .header-content {
+        height: 100%;
+        display: flex;
+        width: 100%;
+        padding-top: 7px;
+
+        .header-logo {
+          padding-top: 11px;
+          width: 20%;
+
+          img {
+            width: 136px;
+          }
+        }
+
+        .header-menu {
+          text-align: right;
+          width: 80%;
+
+          ul {
+            padding: 0;
+            display: inline-flex;
+
+            li {
+              list-style: none;
+              margin-left: 20px;
+
+              a {
+                display: inline-block;
+                color: #535353;
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 12px;
+              }
+
+              .button-blue {
+                display: none;
+              }
+
+              .button-white {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

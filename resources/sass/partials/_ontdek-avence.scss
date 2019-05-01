@@ -1,0 +1,120 @@
+@media (min-width: 800px) {
+
+  .ontdek-avence-background {
+    max-width: 100%;
+    width: 100%;
+
+    svg {
+      transform: scale(1.05);
+      height: 100%;
+    }
+  }
+
+  .ontdek-avence {
+    padding-bottom: 100px;
+    height: 100%;
+
+    .ontdek-avence-content {
+      align-content: center;
+      align-items: center;
+      background: white;
+      display: flex;
+      display: flex;
+      width: 100%;
+
+      .ontdek-avence-picture {
+        width: 50%;
+        text-align: center;
+
+        img {
+          width: 65%;
+        }
+      }
+
+      .ontdek-avence-text {
+        width: 50%;
+
+        h1 {
+
+        }
+
+        p {
+          margin: 30px 0 40px 0;
+        }
+
+        .gratis-afspraak-maken {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 5px;
+          background: #2699FB;
+          color: white;
+          border: 1px solid #68B7FA;
+          padding: 10px 50px;
+          margin-right: 10px;
+        }
+
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+
+  .ontdek-avence-background {
+    max-width: 100%;
+    width: 100%;
+
+    svg {
+      transform: scale(1.05);
+      height: 100%;
+    }
+  }
+
+  .ontdek-avence {
+    padding-bottom: 100px;
+    height: 100%;
+
+    .ontdek-avence-content {
+      align-content: center;
+      align-items: center;
+      background: white;
+      display: block;
+      width: 100%;
+
+      .ontdek-avence-picture {
+        width: 100%;
+        text-align: center;
+
+        img {
+          width: 65%;
+        }
+      }
+
+      .ontdek-avence-text {
+        width: 100%;
+
+        h1 {
+margin-top: 30px;
+        }
+
+        p {
+          margin: 30px 0 40px 0;
+        }
+
+        .gratis-afspraak-maken {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 5px;
+          background: #2699FB;
+          color: white;
+          border: 1px solid #68B7FA;
+          padding: 10px 50px;
+          margin-right: 10px;
+        }
+
+      }
+    }
+  }
+}

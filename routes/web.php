@@ -12,5 +12,17 @@
 */
 
 Route::view('/', 'portal.pages.home');
-Route::view('/about', 'portal.pages.about');
-Route::view('/services', 'portal.pages.diensten');
+Route::view('/over-ons', 'portal.pages.about');
+Route::view('/contact', 'portal.pages.contact');
+Route::view('/services', 'portal.pages.services');
+Route::view('/portfolio', 'portal.pages.portfolio');
+//klantenlogin
+Route::view('/klantenlogin', 'portal.pages.klantenlogin');
+
+
+
+//client area
+Route::view('/client/bergwerff-vlees', 'portal.pages.client-bergwerff');
+
+
+

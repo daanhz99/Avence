@@ -1,0 +1,157 @@
+@media (min-width: 1000px) {
+  .about-us {
+    height: 65vh;
+    background-image: linear-gradient(rgba(104, 183, 250, 0.75), rgba(38, 153, 251, 0.75)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/home/landingbg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .about-us-content {
+      h1 {
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: white;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+
+  }
+
+  .about-us-landing {
+    height: 100%;
+    padding: 60px 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .about-us-landing-content {
+
+      width: 100%;
+      display: flex;
+
+      .about-us-left {
+        width: 50%;
+
+        p {
+          margin: 18px 0 55px 0;
+          width: 87%;
+        }
+
+        a {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 5px;
+        }
+
+        .about-us-contact {
+          background-color: #2699FB;
+          color: white;
+          border: 1px solid #68B7FA;
+          padding: 10px 50px;
+        }
+
+      }
+
+      .about-us-right {
+        width: 50%;
+        text-align: center;
+
+        img {
+          width: 90%;
+        }
+
+      }
+
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-us {
+    height: 65vh;
+    background-image: linear-gradient(rgba(104, 183, 250, 0.75), rgba(38, 153, 251, 0.75)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/home/landingbg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .about-us-content {
+      h1 {
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: white;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+
+  }
+
+  .about-us-landing {
+    height: 100%;
+    padding: 60px 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .about-us-landing-content {
+
+      width: 100%;
+      display: block;
+
+      .about-us-left {
+        width: 100%;
+        margin-bottom: 50px;
+
+        p {
+          margin: 18px 0 55px 0;
+          width: 87%;
+        }
+
+        a {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 5px;
+        }
+
+        .about-us-contact {
+          background-color: #2699FB;
+          color: white;
+          border: 1px solid #68B7FA;
+          padding: 10px 50px;
+        }
+
+      }
+
+      .about-us-right {
+        width: 100%;
+        text-align: center;
+
+        img {
+          width: 70%;
+        }
+
+      }
+
+    }
+  }
+}
+

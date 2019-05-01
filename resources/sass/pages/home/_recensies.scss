@@ -1,0 +1,79 @@
+@media (min-width: 801px) {
+
+  .recensies {
+    height: 100%;
+    padding: 30px 0;
+    margin-bottom: 30px;
+
+    .recensies-content {
+
+
+      h1 {
+        text-align: center;
+        margin-bottom: 80px;
+      }
+
+      .recensies-naam {
+        color: #36A3FF;
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+      }
+
+      h3 {
+        text-align: center;
+        font-size: 21px;
+        margin-top: 0;
+        color: #535353;
+      }
+
+      .recensies-message {
+        text-align: center;
+        width: 45%;
+        margin: 0 auto;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 800px) {
+
+  .recensies {
+    height: 100%;
+    padding: 30px 0;
+    margin-bottom: 30px;
+
+    .recensies-content {
+
+
+      h1 {
+        text-align: center;
+        margin-bottom: 80px;
+      }
+
+      .recensies-naam {
+        color: #36A3FF;
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+        margin: 0;
+      }
+
+      h3 {
+        text-align: center;
+        font-size: 21px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: #535353;
+      }
+
+      .recensies-message {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+      }
+
+    }
+  }
+}

@@ -1,197 +1,124 @@
 @extends('portal.layouts.layout')
-
 @section('content')
 
-    <section class="landing">
+    <div class="landing">
         <div class="container">
-            <div class="landing-text">
-                <h1>Website Development.</h1>
-                <p>Avence is een team van developers en designers die nauw samenwerken. Wij focussen op het
-                    ontwikkelen van maatwerk websites en webapplicaties. </p>
-                <a class="button white" href="#">Lees meer</a>
-                <a class="button blue" href="#">Diensten</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="responsive">
-        <div class="container">
-            <div class="responsive-content">
-                <div class="responsive-text">
-                    <h1>Ontworpen <br>
-                        voor elk toestel.</h1>
-
-                    <p class="page-text-big">Avence is een team van developers en designers die nauw samenwerken. Wij
-                        focussen op het
-                        ontwikkelen van maatwerk websites en webapplicaties.
-                        Avence is een team van developers en designers die nauw samenwerken. Wij focussen op het
-                        ontwikkelen van maatwerk websites en webapplicaties. </p>
-                    <a class="button" href="#">Lees meer</a>
-                    <a class="button blue" href="#">Diensten</a>
-
-                </div>
-                <div class="responsive-image">
-                    <img src="/images/pages/home/responsive.png" alt="#">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="contact-ons">
-        <div class="container">
-            <div class="text-container">
-                <div class="ontdek-ons">
-                    <div class="ontdenk-ons-text">
-                        <h3>Ontdenk Avence.</h3>
-                        <p class="page-text-small">Maak een gratis afspraak om uw project te bespreken. </p>
-                    </div>
-                    <div class="ontdenk-ons-button">
-                        <a class="button white" href="#">Gratis afspraak maken</a>
-                    </div>
-                </div>
-            </div>
+            <h1 data-aos="fade-up" data-aos-duration="1000">Website Development.</h1>
+            <p data-aos="fade-up" data-aos-duration="1500" >Wij focussen op het ontwikkelen van maatwerk websites en webapplicaties.
+            </p>
         </div>
     </div>
-
-    <div class="offered-servives">
+    {{--    ONTWORPEN VOOR ELK TOESTEL--}}
+    <div class="ontworpen-voor-elk-toestel">
         <div class="container">
-            <div class="offered-servives-content">
-                <div class="services-product">
-                    <svg viewBox="0 -25 424 424" xmlns="http://www.w3.org/2000/svg">
-                        <path d="m167.289062 272.132812c-1.601562 0-3.214843-.550781-4.53125-1.671874l-45.296874-38.570313c-1.5625-1.332031-2.460938-3.277344-2.460938-5.332031 0-2.050782.902344-3.996094 2.460938-5.328125l45.296874-38.570313c2.941407-2.507812 7.359376-2.152344 9.867188.789063 2.503906 2.945312 2.152344 7.363281-.792969 9.867187l-39.035156 33.242188 39.035156 33.242187c2.945313 2.507813 3.296875 6.925781.792969 9.867188-1.386719 1.628906-3.355469 2.464843-5.335938 2.464843zm0 0"/>
-                        <path d="m256.710938 272.132812c-1.980469 0-3.949219-.835937-5.332032-2.464843-2.507812-2.941407-2.152344-7.359375.789063-9.867188l39.035156-33.242187-39.035156-33.242188c-2.941407-2.503906-3.296875-6.921875-.789063-9.867187 2.503906-2.941407 6.925782-3.296875 9.863282-.789063l45.296874 38.570313c1.5625 1.332031 2.460938 3.277343 2.460938 5.328125 0 2.054687-.898438 4-2.460938 5.332031l-45.296874 38.570313c-1.316407 1.121093-2.929688 1.671874-4.53125 1.671874zm0 0"/>
-                        <path d="m195.964844 301.0625c-.480469 0-.964844-.050781-1.453125-.152344-3.78125-.796875-6.203125-4.511718-5.40625-8.292968l28.230469-134.035157c.796874-3.78125 4.507812-6.203125 8.292968-5.40625 3.78125.796875 6.203125 4.507813 5.40625 8.292969l-28.230468 134.035156c-.695313 3.296875-3.601563 5.558594-6.839844 5.558594zm0 0"/>
-                        <path d="m377 374.085938h-330c-25.914062 0-47-21.082032-47-47v-280.085938c0-25.914062 21.085938-47 47-47h330c25.914062 0 47 21.085938 47 47v280.085938c0 25.917968-21.085938 47-47 47zm-330-360.085938c-18.195312 0-33 14.804688-33 33v280.085938c0 18.195312 14.804688 33 33 33h330c18.195312 0 33-14.804688 33-33v-280.085938c0-18.195312-14.804688-33-33-33zm0 0"/>
-                        <path d="m417 112.089844h-410c-3.867188 0-7-3.132813-7-7 0-3.863282 3.132812-7 7-7h410c3.867188 0 7 3.136718 7 7 0 3.867187-3.132812 7-7 7zm0 0"/>
-                        <path d="m119.601562 78.59375c-12.210937 0-22.152343-9.941406-22.152343-22.152344 0-12.214844 9.941406-22.152344 22.152343-22.152344 12.214844 0 22.152344 9.9375 22.152344 22.152344 0 12.210938-9.9375 22.152344-22.152344 22.152344zm0-30.304688c-4.492187 0-8.152343 3.65625-8.152343 8.152344s3.660156 8.152344 8.152343 8.152344c4.496094 0 8.152344-3.65625 8.152344-8.152344s-3.65625-8.152344-8.152344-8.152344zm0 0"/>
-                        <path d="m51.539062 78.378906c-12.214843 0-22.152343-9.9375-22.152343-22.152344 0-12.214843 9.9375-22.152343 22.152343-22.152343 12.214844 0 22.152344 9.9375 22.152344 22.152343 0 12.214844-9.9375 22.152344-22.152344 22.152344zm0-30.304687c-4.492187 0-8.152343 3.660156-8.152343 8.152343 0 4.496094 3.660156 8.152344 8.152343 8.152344 4.496094 0 8.152344-3.65625 8.152344-8.152344 0-4.492187-3.65625-8.152343-8.152344-8.152343zm0 0"/>
-                        <path d="m187.664062 78.804688c-12.210937 0-22.148437-9.9375-22.148437-22.152344 0-12.210938 9.9375-22.148438 22.148437-22.148438 12.214844 0 22.152344 9.9375 22.152344 22.148438 0 12.214844-9.9375 22.152344-22.152344 22.152344zm0-30.304688c-4.492187 0-8.148437 3.65625-8.148437 8.152344s3.65625 8.152344 8.148437 8.152344c4.496094 0 8.152344-3.65625 8.152344-8.152344s-3.65625-8.152344-8.152344-8.152344zm0 0"/>
-                    </svg>
-                    <h2>Website.</h2>
-                    <p class="page-text-small">Door middel van een persoonlijk design geven wij uw bedrijf op het internet een goede
-                        uitstraling. Van portfolio’s tot aan geavanceerde webapplicaties. </p>
-                    <a href="#">> Lees meer</a>
-                </div>
-                <div class="services-product">
-                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<g>
-    <g>
-        <path d="M480.451,40.081H31.549C14.152,40.081,0,54.233,0,71.629v304.613c0,17.396,14.152,31.548,31.549,31.548h151.826
-			l-6.141,49.129H151.79c-4.143,0-7.5,3.358-7.5,7.5c0,4.142,3.357,7.5,7.5,7.5h208.42c4.143,0,7.5-3.358,7.5-7.5
-			c0-4.142-3.357-7.5-7.5-7.5h-25.443l-6.142-49.129h151.826c17.396,0,31.549-14.152,31.549-31.548V71.629
-			C512,54.233,497.848,40.081,480.451,40.081z M192.351,456.919l6.142-49.129h27.603l2.708,10.83
-			c3.126,12.503,14.31,21.234,27.197,21.234c12.887,0,24.071-8.731,27.197-21.234l2.708-10.83h27.603l6.14,49.129H192.351z
-			 M241.557,407.79h28.885l-1.798,7.192c-1.453,5.813-6.652,9.872-12.645,9.872s-11.191-4.06-12.645-9.872L241.557,407.79z
-			 M497,376.242L497,376.242c0,9.125-7.424,16.548-16.549,16.548H31.549c-9.125,0-16.549-7.423-16.549-16.548V71.629
-			c0-9.125,7.424-16.548,16.549-16.548h448.902c9.125,0,16.549,7.423,16.549,16.548V376.242z"/>
-    </g>
-</g>
-                        <g>
-                            <g>
-                                <path d="M424.338,72.146H39.564c-4.143,0-7.5,3.357-7.5,7.5v288.58c0,4.143,3.357,7.5,7.5,7.5h16.033c4.143,0,7.5-3.357,7.5-7.5
-			c0.001-4.142-3.357-7.5-7.499-7.5h-8.533V87.146h377.273c4.143,0,7.5-3.358,7.5-7.5C431.838,75.503,428.481,72.146,424.338,72.146
-			z"/>
-                            </g>
-                        </g>
-                        <g>
-                            <g>
-                                <path d="M472.436,72.146h-16.033c-4.143,0-7.5,3.357-7.5,7.5c0,4.142,3.357,7.5,7.5,7.5h8.533v273.58H87.662
-			c-4.143,0-7.5,3.358-7.5,7.5c0,4.143,3.357,7.5,7.5,7.5h384.773c4.143,0,7.5-3.357,7.5-7.5V79.646
-			C479.936,75.503,476.578,72.146,472.436,72.146z"/>
-                            </g>
-                        </g>
-                        <g>
-                            <g>
-                                <path d="M358.1,155.184c-1.348-1.723-3.381-2.771-5.565-2.87l-176.354-8.017c-0.138-0.006-0.273-0.009-0.412-0.007
-			c-1.044-3.427-3.25-6.399-6.236-8.391l-21.597-14.398c-3.446-2.297-8.103-1.366-10.4,2.081c-2.297,3.447-1.366,8.103,2.08,10.4
-			l21.596,14.396c0.102,0.068,0.177,0.171,0.211,0.289l27.509,96.281c0.858,3.002,2.27,5.7,4.083,8.03l-10.065,20.13
-			c-2.423,4.845-2.169,10.488,0.679,15.096c1.033,1.671,2.343,3.094,3.848,4.234c-1.97,3.439-3.103,7.417-3.103,11.657
-			c0,12.976,10.557,23.532,23.532,23.532c12.975,0,23.532-10.557,23.532-23.532c0-3.009-0.574-5.885-1.608-8.532h68.377
-			c-1.034,2.647-1.608,5.523-1.608,8.532c0,12.976,10.557,23.532,23.532,23.532c12.975,0,23.532-10.557,23.532-23.532
-			c0-3.764-0.893-7.321-2.471-10.479c1.514-1.372,2.471-3.348,2.471-5.553c0-4.142-3.357-7.5-7.5-7.5H196.825
-			c-0.107,0-0.288,0-0.439-0.245c-0.151-0.244-0.07-0.405-0.022-0.502l9.272-18.543c1.887,0.485,3.853,0.747,5.865,0.747
-			c0.927,0,1.863-0.055,2.805-0.165l105.386-12.398c13.611-1.602,24.562-11.706,27.25-25.146l12.606-63.034
-			C359.977,159.132,359.448,156.907,358.1,155.184z M320.129,295.565c4.705,0,8.532,3.828,8.532,8.532
-			c0,4.705-3.827,8.532-8.532,8.532s-8.532-3.827-8.532-8.532S315.424,295.565,320.129,295.565z M207.904,295.565
-			c4.705,0,8.532,3.827,8.532,8.532c0,4.705-3.827,8.532-8.532,8.532c-4.705,0-8.532-3.827-8.532-8.532
-			S203.199,295.565,207.904,295.565z M189.512,192.387l-9.399-32.895l29.985,1.363l5.199,31.532H189.512z M212.554,246.958
-			c-4.182,0.492-8.047-2.087-9.201-6.13l-9.555-33.441h23.972l6.301,38.216L212.554,246.958z M256.517,241.786l-17.532,2.063
-			l-6.011-36.461h23.543V241.786z M256.517,192.387H230.5l-5.084-30.835l31.101,1.414V192.387z M294.499,237.317l-22.982,2.704
-			v-32.634h25.691L294.499,237.317z M298.566,192.387h-27.049v-28.74l29.529,1.342L298.566,192.387z M332.232,221.371
-			c-1.41,7.048-7.154,12.349-14.293,13.189l-8.217,0.967l2.547-28.139h22.759L332.232,221.371z M338.029,192.387h-24.401
-			l2.418-26.716l27.08,1.231L338.029,192.387z"/>
-                            </g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-</svg>
-                    <h2>Webshop.</h2>
-                    <p class="page-text-small">Nog geen goede manier gevonden om uw klanten kennis te laten maken met uw producten? Wij maken
-                        dit voor u mogelijk door middel van een webshop.
+            <div class="ontwerpen-voor-elk-toestel-content">
+                <div data-aos="fade-left" data-aos-duration="1000" class="ontwerpen-voor-elk-toestel-content-1">
+                    <h1>Ontworpen <br> voor elk toestel.</h1>
+                    <p>Tegenwoordig gaat meer dan 50% van het internetverkeer via een mobiel apparaat. Wij begrijpen dat
+                        het daarom van groot belang is dat uw klanten uw website op elk apparaat kunnen bezoeken.
+                        Doordat ons designteam op de hoogte is van de laatste design trends, kunnen wij een
+                        website/webshop creëren die helemaal matcht met uw bedrijf. Hierdoor zullen uw bezoekers een
+                        onvergetelijke ervaring beleven.
                     </p>
-                    <a href="#">> Lees meer</a>
+                    <div class="ontworpen-voor-elk-toestel-buttons">
+                        <a class="button-blue hvr-shutter-out-horizontal" href="#">Diensten
+                        </a>
+                    </div>
                 </div>
-                <div class="services-product">
-                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                        <path d="m316 346c-5.519531 0-10 4.480469-10 10s4.480469 10 10 10 10-4.480469 10-10-4.480469-10-10-10zm0 0"/>
-                        <path d="m462 0h-412c-27.570312 0-50 22.429688-50 50v306c0 27.570312 22.429688 50 50 50h156v46h-10c-13.351562 0-25.902344 5.203125-35.351562 14.648438-9.445313 9.449218-14.648438 22-14.648438 35.351562 0 5.523438 4.476562 10 10 10h200c5.523438 0 10-4.476562 10-10 0-27.570312-22.429688-50-50-50h-10v-46h156c27.570312 0 50-22.429688 50-50v-306c0-27.570312-22.429688-50-50-50zm-412 20h412c16.542969 0 30 13.457031 30 30v256h-46v-230c0-5.523438-4.476562-10-10-10h-80c-5.523438 0-10 4.476562-10 10v230h-50.054688c-.105468-10.34375-.375-20.539062-.804687-30.429688-1.75-40.726562-5.738281-68.007812-7.8125-80.007812 20.632813-15.191406 26.265625-43.347656 13.652344-65.222656l-34.660157-60.03125c-1.789062-3.09375-5.089843-5-8.660156-5-3.574218 0-6.875 1.90625-8.660156 5l-34.675781 60.035156c-11.890625 20.625-7.675781 47.339844 11.003906 63.105469-2.164063 11.964843-6.53125 40.222656-8.429687 82.101562-.449219 9.996094-.734376 20.199219-.84375 30.449219h-50.054688v-150c0-1.585938-.375-3.03125-.988281-4.316406-.027344-.050782-.042969-.105469-.066407-.15625l-40-80c-1.695312-3.386719-5.15625-5.527344-8.945312-5.527344s-7.25 2.140625-8.945312 5.527344l-40 80c-.023438.050781-.039063.105468-.0625.15625-.625 1.296875-.992188 2.765625-.992188 4.316406v150h-46v-256c0-16.542969 13.457031-30 30-30zm316 286v-220h60v20h-10c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h10v30h-10c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h10v30h-10c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h10v40h-10c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h10v20zm-108.339844-100.691406c3.632813 0 7.25-.417969 10.789063-1.199219 1.855469 11.894531 4.582031 32.941406 6.195312 61.890625h-37.222656c1.691406-28.929688 4.546875-50.304688 6.519531-62.601562 4.429688 1.261718 9.042969 1.910156 13.71875 1.910156zm0-20c-22.855468 0-37.59375-24.875-26.011718-44.96875l26.011718-45.03125 25.996094 45.027344c11.539062 20.011718-2.996094 44.972656-25.996094 44.972656zm-21.15625 100.691406h39.019532c.210937 6.570312.355468 13.253906.425781 20h-39.894531c.074218-6.703125.226562-13.386719.449218-20zm-110.503906 20v-140h20v140zm-40 0v-140h20v140zm6.179688-160 23.820312-47.640625 23.820312 47.640625zm252.105468 346h-176.582031c1.46875-4.167969 3.867187-7.988281 7.085937-11.210938 5.671876-5.667968 13.203126-8.789062 21.210938-8.789062h120c13.039062 0 24.160156 8.359375 28.285156 20zm-58.285156-40h-60v-46h60zm176-66h-412c-16.542969 0-30-13.457031-30-30v-30h472v30c0 16.542969-13.457031 30-30 30zm0 0"/>
-                        <path d="m276 346h-60c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h60c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10zm0 0"/>
-                    </svg>
-                    <h2>Design.</h2>
-                    <p class="page-text-small">Heeft u een design nodig voor uw website of (web)app? Doordat wij op de hoogte zijn van de
-                        laatste design trend bieden wij u de perfecte oplossing.</p>
-                    <a href="#">> Lees meer</a>
+                <div data-aos="fade-right" data-aos-duration="1000" class="ontwerpen-voor-elk-toestel-content-2">
+                    <img src="/images/home/elk-toestel.png" alt="#">
                 </div>
             </div>
         </div>
     </div>
-
-    <section class="testimonials">
+    {{--    BACKGROUND--}}
+    <div class="ontworpen-voor-elk-toestel-bg">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1453" height="207.464"
+             viewBox="0 0 1453 207.464">
+            <defs>
+                <filter id="Path_297" x="0" y="0" width="1453" height="207.464" filterUnits="userSpaceOnUse">
+                    <feOffset dy="15" input="SourceAlpha"/>
+                    <feGaussianBlur stdDeviation="14.5" result="blur"/>
+                    <feFlood flood-opacity="0.043"/>
+                    <feComposite operator="in" in2="blur"/>
+                    <feComposite in="SourceGraphic"/>
+                </filter>
+            </defs>
+            <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_297)">
+                <path id="Path_297-2" data-name="Path 297"
+                      d="M0,547.361H1366v85.768s-155.945,34.7-385.828,34.7-289.8-5.928-533.7-34.7S0,646,0,646Z"
+                      transform="translate(43.5 -518.86)" fill="#fff"/>
+            </g>
+        </svg>
+    </div>
+    {{--    ONZE DIENSTEN--}}
+    <div class="onze-diensten">
         <div class="container">
-            <div class="testimonials-content">
-                <h1>Deze klanten
-                    gingen u voor.</h1>
-                <p class="page-text-big"><span>"</span> dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                    scrambled it to make a type specimen book. It has survived not only five centuries. <span>"</span>
-                </p>
-                <h6>Tjeerd Korse</h6>
-                <h5>SnuffelBox B.V.</h5>
+            <div class="onze-diensten-content">
+                <a data-aos="fade-up" data-aos-duration="1000" style="text-decoration: none" href="#">
+                    <div class="onze-diensten-info">
+                        <div class="onze-diensten-info-inside">
+                            <div class="info-icon">
+                                <svg class="icon-website" xmlns="http://www.w3.org/2000/svg" width="46" height="42"
+                                     viewBox="0 0 46 42">
+                                    <path id="Path_828" data-name="Path 828"
+                                          d="M43.4,4H6.6C4.07,4,2.023,6.363,2.023,9.25L2,40.75C2,43.638,4.07,46,6.6,46H43.4c2.53,0,4.6-2.362,4.6-5.25V9.25C48,6.363,45.93,4,43.4,4ZM31.9,40.75H6.6V30.25H31.9Zm0-13.125H6.6v-10.5H31.9ZM43.4,40.75H34.2V17.125h9.2Z"
+                                          transform="translate(-2 -4)"/>
+                                </svg>
+                            </div>
+                            <h2>Websites</h2>
+                            <p>Een persoonlijke website voor een professionele uitstraling.</p>
+                        </div>
+                    </div>
+                </a>
+                <a data-aos="fade-up" data-aos-duration="1000"  style="text-decoration: none" href="#">
+                    <div class="onze-diensten-info">
+                        <div class="onze-diensten-info-inside">
+                            <div class="info-icon">
+                                <svg id="baseline-phone_iphone-24px" xmlns="http://www.w3.org/2000/svg" width="50"
+                                     height="58" viewBox="0 0 50 58">
+                                    <path id="Path_298" data-name="Path 298"
+                                          d="M30.451,1H11.06A6.052,6.052,0,0,0,5,7.04V48.112a6.052,6.052,0,0,0,6.06,6.04H30.451a6.052,6.052,0,0,0,6.06-6.04V7.04A6.052,6.052,0,0,0,30.451,1Zm-9.7,50.736a3.624,3.624,0,1,1,3.636-3.624A3.625,3.625,0,0,1,20.755,51.736Zm10.907-9.664H9.848V8.248H31.662Z"
+                                          transform="translate(4.404 1.424)"/>
+                                    <path id="Path_299" data-name="Path 299" d="M0,0H50V58H0Z" fill="none"/>
+                                </svg>
+                            </div>
+                            <h2>Applicaties</h2>
+                            <p>Een web-applicatie nodig voor gebruik of verkoop van uw diensten?</p>
+                        </div>
+                    </div>
+                </a>
+                <a data-aos="fade-up" data-aos-duration="1000"  style="text-decoration: none" href="#">
+                    <div class="onze-diensten-info">
+                        <div class="onze-diensten-info-inside">
+                            <div class="info-icon">
+                                <svg id="outline-store-24px" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                     viewBox="0 0 50 50">
+                                    <path id="Path_830" data-name="Path 830" d="M0,0H50V50H0Z" fill="none"/>
+                                    <path id="Path_831" data-name="Path 831"
+                                          d="M40.547,17.125,42.013,25H7.987l1.467-7.875H40.547M44.556,4H5.444V9.25H44.556Zm0,7.875H5.444L3,25v5.25H5.444V46H29.889V30.25h9.778V46h4.889V30.25H47V25ZM10.333,40.75V30.25H25v10.5Z"
+                                          transform="translate(0)"/>
+                                </svg>
+                            </div>
+                            <h2>Webshops</h2>
+                            <p>Laat uw klanten kennis maken met uw producten.</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
-    </section>
-
-    <section>
-
-    </section>
-
+    </div>
+    {{--    TESTIMONIALS--}}
+    <div class="recensies">
+        <div class="container">
+            <div class="recensies-content">
+                <h1 data-aos="fade-up" data-aos-duration="1000"  >Deze klanten<br>gingen u voor.</h1>
+                <p data-aos="fade-down" data-aos-duration="1000" class="recensies-naam">Tjeerd Korse</p>
+                <h3 data-aos="fade-down" data-aos-duration="1000" >SnuffelBox B.V.</h3>
+                <p data-aos="fade-down" data-aos-duration="1000" class="recensies-message">“ dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. ”</p>
+            </div>
+        </div>
+    </div>
+{{--    ONTDEK AVENCE--}}
+    @include('portal.partials.ontdenk-avence')
 @endsection

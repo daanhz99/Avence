@@ -24,6 +24,8 @@
         "vue-template-compiler": "^2.5.22"
     },
     "dependencies": {
+        "aos": "^3.0.0-beta.6",
+        "hover.css": "^2.3.2",
         "slick-carousel": "^1.8.1"
     }
 }

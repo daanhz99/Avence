@@ -21,9 +21,10 @@ Route::view('/klantenlogin', 'portal.pages.klantenlogin');
 Route::view('/testimonials', 'portal.pages.testimonials');
 
 
-
 //client area
 Route::view('/client/bergwerff-vlees', 'portal.pages.client-bergwerff');
 
+
+Route::post('/testimonials', "MailController@send");
 
 

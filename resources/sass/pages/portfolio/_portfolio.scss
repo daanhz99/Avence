@@ -1,64 +1,301 @@
-.portfolio-landing {
-  height: 50vh;
-  background-image: linear-gradient(rgba(104, 183, 250, 0.96), rgba(38, 153, 251, 0.95)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/contact/background.png");
-  background-size: cover;
-  background-position: center;
+@media (min-width: 1201px) {
+  .portfolio-landing {
+    height: 35vh;
+    background: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
 
-  display: flex;
-  align-content: center;
-  align-items: center;
+    h1 {
+      color: #535353;
+      text-align: center;
+      margin-top: 60px;
+    }
 
-  h1{
-    color: white;
-    text-align: center;
-    margin-top: 40px;
+
+    p {
+      width: 70%;
+      margin: 0 auto;
+      color: #535353;
+      text-align: center;
+    }
   }
 
+  .portfolio-menu{
+    background: #F8F8F8;
+    height: 60px;
+    margin-bottom: 50px;
+    ul{
+      padding-top: 7px;
+      padding-left: 0px;
+      display: inline-flex;
+      li{
+        margin-right: 20px;
+        list-style: none;
+        font-size: 12px;
+        color: #535353;
+        font-weight: 300;
+      }
+      .active-portfolio{
+        font-weight: 500;
+      }
+    }
+  }
 
+  .portfolio {
+    .portfolio-content {
+      .portfolio-row-1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
 
-  p {
-    width: 70%;
-    margin: 0 auto;
-    color: white;
-    text-align: center;
+        .portfolio-row-2 {
+          display: flex;
+          width: 48%;
+          justify-content: space-between;
+
+          .client {
+            border-radius: 5px;
+            height: 100%;
+            background: white;
+            -webkit-box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+            -moz-box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+            box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+            width: 46%;
+
+            .client-top-bg {
+              height: 160px;
+              background-image: url("/Users/daan/Documents/Avence Design/avence-website/public/images/portfolio/bergwerff.jpg");
+              background-position: center;
+              background-size: cover;
+            }
+
+            .client-bottom {
+              padding: 25px 30px 35px 30px;
+
+              h3 {
+                font-size: 12px;
+                font-weight: 600;
+                color: #535353;
+                margin: 0;
+              }
+
+              h2 {
+                font-size: 12px;
+                font-weight: 400;
+                color: #2699FB;
+                margin: 0;
+                font-style: italic;
+              }
+
+              p {
+                line-height: 22px;
+                margin: 30px 0;
+                color: #707070;
+                font-weight: 300;
+                font-size: 12px;
+              }
+
+            }
+          }
+        }
+      }
+    }
   }
 }
 
-.portfolio{
-  .portfolio-content{
-    .client{
-      width: 325px;
-      border: 1px solid transparent;
-      border-radius: 5px;
-      -webkit-box-shadow: 0px 0px 10px -5px rgb(152, 152, 152);
-      -moz-box-shadow: 0px 0px 10px -5px rgb(154, 154, 154);
-      box-shadow: 0px 0px 10px -5px rgb(128, 128, 128);
+@media (max-width: 1200px) {
+  .portfolio-landing {
+    height: 35vh;
+    background: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    h1 {
+      color: #535353;
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 10px;
+    }
 
 
-      .client-top{
-        height: 225px;
+    p {
+      width: 85%;
+      margin: 0 auto;
+      color: #535353;
+      text-align: center;
+    }
+  }
+
+  .portfolio-menu{
+    background: #F8F8F8;
+    height: 60px;
+    margin-bottom: 50px;
+    ul{
+      padding-top: 7px;
+      padding-left: 0px;
+      display: inline-flex;
+      li{
+        margin-right: 20px;
+        list-style: none;
+        font-size: 12px;
+        color: #535353;
+        font-weight: 300;
+      }
+      .active-portfolio{
+        font-weight: 500;
+      }
+    }
+  }
+
+  .portfolio {
+    .portfolio-content {
+      .portfolio-row-1 {
         width: 100%;
-        img{
+        display: block;
+        justify-content: space-between;
+
+        .portfolio-row-2 {
+          display: flex;
           width: 100%;
-          height: 100%;
-          border-radius: 5px;
+          justify-content: space-between;
+          margin-bottom: 2%;
+
+          .client {
+            border-radius: 5px;
+            height: 100%;
+            background: white;
+            -webkit-box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+            -moz-box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+            box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+            width: 49%;
+
+            .client-top-bg {
+              height: 160px;
+              background-image: url("/Users/daan/Documents/Avence Design/avence-website/public/images/portfolio/bergwerff.jpg");
+              background-position: center;
+              background-size: cover;
+            }
+
+            .client-bottom {
+              padding: 25px 30px 35px 30px;
+
+              h3 {
+                font-size: 12px;
+                font-weight: 600;
+                color: #535353;
+                margin: 0;
+              }
+
+              h2 {
+                font-size: 12px;
+                font-weight: 400;
+                color: #2699FB;
+                margin: 0;
+                font-style: italic;
+              }
+
+              p {
+                line-height: 22px;
+                margin: 30px 0;
+                color: #707070;
+                font-weight: 300;
+                font-size: 12px;
+              }
+
+            }
+          }
         }
       }
+    }
+  }
+}
 
-      .client-bottom{
-        padding: 20px 20px;
-        h2{
-          font-size: 18px;
-          color: #535353;
-          margin: 0;
-        }
-        p{
-          margin: 15px 0;
-          font-size: 16px;
-          color: #535353;
+@media (max-width: 650px) {
+  .portfolio-landing {
+    height: 35vh;
+    background: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    h1 {
+      color: #535353;
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 10px;
+    }
+
+
+    p {
+      width: 100%;
+      margin: 0 auto;
+      color: #535353;
+      text-align: center;
+    }
+  }
+
+  .portfolio {
+    .portfolio-content {
+      .portfolio-row-1 {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+
+        .portfolio-row-2 {
+          display: block;
+          width: 100%;
+          justify-content: space-between;
+          margin-bottom: 2%;
+
+          .client {
+            margin-bottom: 2%;
+            border-radius: 5px;
+            height: 100%;
+            background: white;
+            -webkit-box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+            -moz-box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+            box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+            width: 100%;
+
+            .client-top-bg {
+              height: 160px;
+              background-image: url("/Users/daan/Documents/Avence Design/avence-website/public/images/portfolio/bergwerff.jpg");
+              background-position: center;
+              background-size: cover;
+            }
+
+            .client-bottom {
+              padding: 25px 30px 35px 30px;
+
+              h3 {
+                font-size: 12px;
+                font-weight: 600;
+                color: #535353;
+                margin: 0;
+              }
+
+              h2 {
+                font-size: 12px;
+                font-weight: 400;
+                color: #2699FB;
+                margin: 0;
+                font-style: italic;
+              }
+
+              p {
+                line-height: 22px;
+                margin: 30px 0;
+                color: #707070;
+                font-weight: 300;
+                font-size: 12px;
+              }
+
+            }
+          }
         }
       }
-
     }
   }
 }

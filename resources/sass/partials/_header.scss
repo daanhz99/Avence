@@ -1,5 +1,8 @@
 @media (min-width: 1200px) {
   header {
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+    -moz-box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
+    box-shadow: 0px 0px 10px -5px rgba(194, 194, 194, 1);
     position: absolute;
     height: 70px;
     width: 100%;
@@ -13,6 +16,10 @@
         display: flex;
         width: 100%;
         padding-top: 7px;
+
+        .header-menu-mobile{
+          display: none;
+        }
 
         .header-logo {
           padding-top: 11px;
@@ -76,6 +83,10 @@
         width: 100%;
         padding-top: 7px;
 
+        .header-menu-mobile{
+          display: none;
+        }
+
         .header-logo {
           padding-top: 11px;
           width: 20%;
@@ -137,6 +148,10 @@
         display: flex;
         width: 100%;
         padding-top: 7px;
+
+        .header-menu-mobile{
+          display: none;
+        }
 
         .header-logo {
           padding-top: 11px;
@@ -200,6 +215,19 @@
         width: 100%;
         padding-top: 7px;
 
+        .header-menu-mobile{
+          display: block;
+          width: 80%;
+          text-align: right;
+          padding-top: 3px;
+
+          svg{
+            width: 50px;
+            height: 50px;
+            fill: #2f2f2f;
+          }
+        }
+
         .header-logo {
           padding-top: 11px;
           width: 20%;
@@ -210,6 +238,7 @@
         }
 
         .header-menu {
+          display: none;
           text-align: right;
           width: 80%;
 

@@ -2,17 +2,15 @@
   .services {
 
     height: 65vh;
-    background-image: linear-gradient(rgba(237, 247, 255, 0.93),rgba(255, 255, 255, 0.93)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/services/bg.png");
-    background-size: cover;
-    background-position: center;
-
+    background: white;
     display: flex;
     align-content: center;
     align-items: center;
 
-h1{
-  text-align: center;
-}
+    h1 {
+      text-align: center;
+    }
+
     p {
       text-align: center;
       width: 70%;
@@ -124,10 +122,7 @@ h1{
   .services {
 
     height: 65vh;
-    background-image: linear-gradient(rgba(237, 247, 255, 0.93),rgba(255, 255, 255, 0.93)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/services/bg.png");
-    background-size: cover;
-    background-position: center;
-
+    background: white;
     display: flex;
     align-content: center;
     align-items: center;
@@ -247,10 +242,7 @@ h1{
   .services {
 
     height: 65vh;
-    background-image: linear-gradient(rgba(237, 247, 255, 0.93),rgba(255, 255, 255, 0.93)), url("/Users/daan/Documents/Avence Design/avence-website/public/images/services/bg.png");
-    background-size: cover;
-    background-position: center;
-
+    background: white;
     display: flex;
     align-content: center;
     align-items: center;
@@ -368,8 +360,8 @@ h1{
 
 @media (max-width: 1000px) {
 
-  .services{
-    h1{
+  .services {
+    h1 {
 
     }
   }

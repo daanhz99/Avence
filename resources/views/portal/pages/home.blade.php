@@ -112,10 +112,10 @@
     <div class="recensies">
         <div class="container">
             <div class="recensies-content">
-                <h1 data-aos="fade-up" data-aos-duration="1000"  >Deze klanten<br>gingen u voor.</h1>
-                <p data-aos="fade-down" data-aos-duration="1000" class="recensies-naam">Tjeerd Korse</p>
-                <h3 data-aos="fade-down" data-aos-duration="1000" >SnuffelBox B.V.</h3>
-                <p data-aos="fade-down" data-aos-duration="1000" class="recensies-message">“ dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. ”</p>
+                <h1 data-aos="fade-up" data-aos-duration="1500"  >Deze klanten<br>gingen u voor.</h1>
+                <p data-aos="fade-up" data-aos-duration="1000" class="recensies-naam">Tjeerd Korse</p>
+                <h3 data-aos="fade-down" data-aos-duration="1200" >SnuffelBox B.V.</h3>
+                <p data-aos="fade-down" data-aos-duration="1400" class="recensies-message">“ dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. ”</p>
             </div>
         </div>
     </div>

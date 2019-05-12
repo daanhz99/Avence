@@ -1,0 +1,243 @@
+@media (min-width: 900px) {
+
+  .testimonials {
+    background: white;
+    max-height: 100%;
+    min-height: 100vh;
+
+    .testimonials-container {
+      width: 750px;
+      margin: 0 auto;
+      max-height: 100%;
+      min-height: 100vh;
+      -webkit-box-shadow: 0px 0px 36px 0px rgba(222, 222, 222, 1);
+      -moz-box-shadow: 0px 0px 36px 0px rgba(222, 222, 222, 1);
+      box-shadow: 0px 0px 36px 0px rgba(222, 222, 222, 1);
+
+      .logo-top {
+        height: 100px;
+        margin-bottom: 40px;
+
+        img {
+          margin: 30px 0 0 70px;
+          width: 136px;
+        }
+      }
+
+      .testimonials-content {
+        width: 70%;
+        margin: 0 auto;
+
+        h1 {
+          margin: 0;
+          font-size: 28px;
+        }
+
+        p {
+          margin: 0;
+          color: #2699FB;
+          font-weight: 300;
+          font-size: 14px;
+          font-style: italic;
+        }
+
+        ::placeholder {
+          color: #535353;
+          font-weight: 300;
+          font-size: 14px;
+        }
+
+        .form-style-8 {
+          margin-top: 50px;
+
+          textarea {
+            margin-top: 60px;
+            margin-bottom: 30px;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 899px) {
+
+  .testimonials {
+    background: white;
+    max-height: 100%;
+    min-height: 100vh;
+
+    .testimonials-container {
+      width: 90%;
+      margin: 0 auto;
+      max-height: 100%;
+      min-height: 100vh;
+      -webkit-box-shadow: 0px 0px 36px 0px rgba(222, 222, 222, 1);
+      -moz-box-shadow: 0px 0px 36px 0px rgba(222, 222, 222, 1);
+      box-shadow: 0px 0px 36px 0px rgba(222, 222, 222, 1);
+
+      .logo-top {
+        height: 100px;
+        margin-bottom: 40px;
+
+        img {
+          margin-top: 30px;
+          margin-left: 10%;
+          width: 136px;
+        }
+      }
+
+      .testimonials-content {
+        width: 70%;
+        margin: 0 auto;
+
+        h1 {
+          margin: 0;
+          font-size: 28px;
+        }
+
+        p {
+          margin: 0;
+          color: #2699FB;
+          font-weight: 300;
+          font-size: 14px;
+          font-style: italic;
+        }
+
+        ::placeholder {
+          color: #535353;
+          font-weight: 300;
+          font-size: 14px;
+        }
+
+        .form-style-8 {
+          margin-top: 50px;
+
+          textarea {
+            margin-top: 60px;
+            margin-bottom: 30px;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+
+  .testimonials {
+    background: white;
+    max-height: 100%;
+    min-height: 100vh;
+
+    .testimonials-container {
+      width: 90%;
+      margin: 0 auto;
+      max-height: 100%;
+      min-height: 100vh;
+      -webkit-box-shadow: 0px 0px 36px 0px rgba(222, 222, 222, 1);
+      -moz-box-shadow: 0px 0px 36px 0px rgba(222, 222, 222, 1);
+      box-shadow: 0px 0px 36px 0px rgba(222, 222, 222, 1);
+
+      .logo-top {
+        height: 100px;
+        margin-bottom: 40px;
+
+        img {
+          margin-top: 30px;
+          margin-left: 10%;
+          width: 136px;
+        }
+      }
+
+      .testimonials-content {
+        width: 70%;
+        margin: 0 auto;
+
+        h1 {
+          margin: 0;
+          font-size: 28px;
+        }
+
+        p {
+          margin: 0;
+          color: #2699FB;
+          font-weight: 300;
+          font-size: 14px;
+          font-style: italic;
+        }
+
+        ::placeholder {
+          color: #535353;
+          font-weight: 300;
+          font-size: 14px;
+        }
+
+        .form-style-8 {
+          margin-top: 50px;
+
+          textarea {
+            margin-top: 60px;
+            margin-bottom: 30px;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+
+
+.form-style-8 h2 {
+  background: #4D4D4D;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #797979;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+
+.form-style-8 textarea {
+  min-height: 30px;
+  overflow: hidden;
+  min-width: 100%;
+  max-height: 100%;
+}
+
+
+
+
+
+
+

@@ -3,15 +3,15 @@
 
     <div class="services">
         <div class="container">
-            <h1>Wat wij u kunnen bieden</h1>
-            <p>Avence is een team van developers en designers die nauw samenwerken. Wij focussen op het ontwikkelen van
+            <h1 data-aos="fade-up" data-aos-duration="1000">Wat wij u kunnen bieden</h1>
+            <p data-aos="fade-up" data-aos-duration="1500">Avence is een team van developers en designers die nauw samenwerken. Wij focussen op het ontwikkelen van
                 maatwerk websites en webapplicaties.</p>
         </div>
     </div>
     <div class="services-landing">
         <div class="container">
             <div class="onze-diensten-content">
-                <a style="text-decoration: none" href="#">
+                <a data-aos="fade-right" data-aos-duration="1000" style="text-decoration: none" href="#">
                     <div class="onze-diensten-info">
                         <div class="onze-diensten-info-inside">
                             <div class="info-icon">
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                 </a>
-                <a style="text-decoration: none" href="#">
+                <a  data-aos="fade-up" data-aos-duration="1300" style="text-decoration: none" href="#">
                     <div class="onze-diensten-info">
                         <div class="onze-diensten-info-inside">
                             <div class="info-icon">
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </a>
-                <a style="text-decoration: none" href="#">
+                <a data-aos="fade-left" data-aos-duration="1000" style="text-decoration: none" href="#">
                     <div class="onze-diensten-info">
                         <div class="onze-diensten-info-inside">
                             <div class="info-icon">

@@ -1,3 +1,7 @@
+*{
+  font-family: "Open Sans", Arial;
+}
+
 @import "~aos/dist/aos.css";
 @import "~hover.css/css/hover-min.css";
 //PAGES
@@ -32,6 +36,7 @@
 
 //klantenlogin
 @import 'pages/klantenlogin/klantenlogin';
+@import 'pages/testimonials/testimonials';
 
 
 * body {
@@ -60,6 +65,12 @@ p {
 
 //CONTAINER
 @media (min-width: 1400px) {
+
+  .portfolio-container{
+    width: 1300px;
+    margin: 0 auto;
+  }
+
   .container {
     width: 1200px;
     margin: 0 auto;
@@ -70,12 +81,20 @@ p {
     margin: 0 auto;
     width: 80%;
   }
+  .portfolio-container{
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 1200px) {
   .container {
     margin: 0 auto;
     width: 90%;
+  }
+  .portfolio-container{
+    width: 95%;
+    margin: 0 auto;
   }
 }
 

@@ -3,51 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="f0daaf1d-e67f-4263-9086-cea9a448cd76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/header/Avence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/header/Avence.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/about/bg.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/about/daan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/about/dawson-lovell-498973-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/about/guus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/diensten/headerbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/Snuffelbox -.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/Snuffelbox -_files/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/Snuffelbox -_files/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/drop-silhouette.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/landing-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/landing-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/picture1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/picture2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/picture3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/picture4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/picture5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/picture6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/picture7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/responsive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/smartphone-call.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pages/home/support.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vendor/slick-carousel/slick/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/about/computer.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/about/computer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/elk-toestel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/home/elk-toestel.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/about/_about-team.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/about/_about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/diensten/_diensten.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/home/_home-afspraak-maken.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/home/_home-contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/home/_home-recensies.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/home/_home-responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/home/_home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/pages/about/_about-landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/about/_about-landing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/pages/portfolio/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/portfolio/_portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/pages/services/_services-landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/services/_services-landing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/portal/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/portal/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/portal/pages/about.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/portal/pages/diensten.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/portal/pages/home.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/portal/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/portal/partials/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/portal/pages/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/portal/pages/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/portal/pages/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/portal/pages/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/portal/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/portal/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/portal/pages/portfolio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/portal/pages/portfolio.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/portal/pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/portal/pages/services.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/portal/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/portal/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -75,65 +44,56 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48413345">
+    <splitter split-orientation="horizontal" split-proportion="0.5068611">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/portal/partials/header.blade.php">
+            <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/about.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/home.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="72" />
+                <state relative-caret-position="759">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
                   <folding>
-                    <marker date="1556717815314" expanded="false" signature="1846:2826" ph="..." />
+                    <marker date="1556793904219" expanded="false" signature="1833:2812" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/testimonials.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/views/portal/partials/header.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="5" column="71" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="71" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="874">
+                  <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+                  <folding>
+                    <marker date="1557600644808" expanded="true" signature="1101:1258" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/klantenlogin.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="381">
-                  <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes/web.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/portal/layouts/layout-clean.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="362">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/about.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
                   <caret selection-end-line="1" selection-end-column="19" />
-                  <folding>
-                    <marker date="1556027168119" expanded="false" signature="1628:2607" ph="..." />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -143,26 +103,38 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/sass/pages/klantenlogin/_klantenlogin.scss">
+            <entry file="file://$PROJECT_DIR$/routes/web.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
-                  <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-                  <folding>
-                    <marker date="1556736813331" expanded="false" signature="30:1498" ph="..." />
-                  </folding>
+                <state relative-caret-position="253">
+                  <caret line="20" column="26" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/resources/sass/pages/home/_landing.scss">
+            <entry file="file://$PROJECT_DIR$/resources/sass/pages/testimonials/_testimonials.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="473">
-                  <caret line="104" column="7" lean-forward="true" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+                <state relative-caret-position="130">
+                  <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
                   <folding>
-                    <marker date="1556736941937" expanded="true" signature="29:1613" ph="..." />
-                    <marker date="1556736941937" expanded="true" signature="1646:3256" ph="..." />
-                    <marker date="1556736941937" expanded="true" signature="3289:4863" ph="..." />
+                    <marker date="1557615160405" expanded="true" signature="28:1184" ph="..." />
+                    <marker date="1557615160405" expanded="true" signature="1219:2393" ph="..." />
+                    <marker date="1557615160405" expanded="true" signature="3605:4635" ph="..." />
+                    <marker date="1557615160405" expanded="false" signature="3608:4628" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/sass/partials/_header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="644">
+                  <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="25" />
+                  <folding>
+                    <marker date="1557259283394" expanded="true" signature="31:1392" ph="..." />
+                    <marker date="1557259283394" expanded="false" signature="1426:2601" ph="..." />
+                    <marker date="1557259283394" expanded="false" signature="2635:3807" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -186,8 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/sass/vendor/app.scss" />
-        <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/sass/pages/home/_home3.scss" />
         <option value="$PROJECT_DIR$/resources/sass/pages/home/_home2.scss" />
         <option value="$PROJECT_DIR$/resources/sass/pages/home/_afspraak-maken.scss" />
@@ -211,32 +181,34 @@
         <option value="$PROJECT_DIR$/resources/sass/partials/_ontdek-avence.scss" />
         <option value="$PROJECT_DIR$/resources/sass/pages/home/_elk-toestel.scss" />
         <option value="$PROJECT_DIR$/resources/sass/partials/_footer.scss" />
-        <option value="$PROJECT_DIR$/resources/views/portal/pages/about.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/pages/about/_our-team.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/pages/about/_about-landing.scss" />
-        <option value="$PROJECT_DIR$/resources/views/portal/pages/contact.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/pages/contact/_contact.scss" />
-        <option value="$PROJECT_DIR$/resources/views/portal/pages/services.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/pages/services/_services-quality.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/pages/services/_services-landing.scss" />
         <option value="$PROJECT_DIR$/resources/views/portal/layouts/layout.blade.php" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/portal/pages/client-bergwerff.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/pages/client-bergwerff/_client-bergwerff-landing.scss" />
-        <option value="$PROJECT_DIR$/resources/views/portal/pages/portfolio.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/pages/portfolio/_portfolio.scss" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/sass/pages/home/_onze-diensten.scss" />
         <option value="$PROJECT_DIR$/resources/views/portal/partials/ontdenk-avence.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/portal/pages/home.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/portal/layouts/layout-clean.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/portal/partials/header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/partials/_header.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/views/portal/pages/klantenlogin.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/pages/klantenlogin/_klantenlogin.scss" />
         <option value="$PROJECT_DIR$/resources/sass/pages/home/_landing.scss" />
+        <option value="$PROJECT_DIR$/resources/views/portal/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/pages/about/_about-landing.scss" />
+        <option value="$PROJECT_DIR$/resources/views/portal/pages/about.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/pages/services/_services-landing.scss" />
+        <option value="$PROJECT_DIR$/resources/views/portal/pages/services.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/pages/portfolio/_portfolio.scss" />
+        <option value="$PROJECT_DIR$/resources/views/portal/pages/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/portal/pages/portfolio.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/portal/pages/contact.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/partials/_header.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/portal/pages/testimonials.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/pages/testimonials/_testimonials.scss" />
       </list>
     </option>
   </component>
@@ -343,6 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,19 +332,6 @@
               <item name="avence-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="avence-website" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avence-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="avence-website" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="klantenlogin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avence-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="avence-website" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,22 +357,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avence-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="avence-website" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avence-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="avence-website" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="avence-website" type="b2602c69:ProjectViewProjectNode" />
@@ -459,7 +403,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,12 +496,17 @@
       <workItem from="1555968162642" duration="128000" />
       <workItem from="1556020300840" duration="7734000" />
       <workItem from="1556054375722" duration="3602000" />
-      <workItem from="1556116339952" duration="23548000" />
+      <workItem from="1556116339952" duration="32840000" />
+      <workItem from="1557257150538" duration="1256000" />
+      <workItem from="1557600228161" duration="2779000" />
+      <workItem from="1557613493977" duration="302000" />
+      <workItem from="1557614449708" duration="824000" />
+      <workItem from="1557650454666" duration="132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196849000" />
+    <option name="totallyTimeSpent" value="211434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,9 +519,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12088698" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1702432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -587,8 +534,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32859176" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.036144577" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="File Transfer" order="12" show_stripe_button="false" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -623,15 +570,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/images/home/webistes.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/home/Webshops.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/home/Apps.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/partials/ontdek-avence/ontdek-avence-bg.svg" />
     <entry file="file://$PROJECT_DIR$/public/images/partials/ontdek-avence/ontdek-avence.bg.svg">
       <provider selected="true" editor-type-id="images" />
@@ -659,13 +597,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/pages/_bergwerff.scss" />
     <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/bergwerff.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/home/_recensies.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-551">
@@ -698,50 +629,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/services/responsive.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/services.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4370">
-          <caret line="207" column="10" selection-start-line="207" selection-start-column="10" selection-end-line="207" selection-end-column="10" />
-          <folding>
-            <marker date="1556119997578" expanded="false" signature="4131:5124" ph="..." />
-            <marker date="1556119997578" expanded="true" signature="5659:6421" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/services/_services-quality.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <marker date="1556120026500" expanded="true" signature="55:166" ph="..." />
-            <marker date="1556120026500" expanded="false" signature="257:1571" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/services/_services-landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4323">
-          <caret line="258" column="19" selection-start-line="258" selection-start-column="19" selection-end-line="258" selection-end-column="19" />
-          <folding>
-            <marker date="1556356410368" expanded="true" signature="31:2350" ph="..." />
-            <marker date="1556356410368" expanded="true" signature="2384:4695" ph="..." />
-            <marker date="1556356410368" expanded="true" signature="4731:7041" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/about/_about-landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="81" column="90" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="90" />
-          <folding>
-            <marker date="1556028050620" expanded="false" signature="30:1410" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/client-bergwerff.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -782,26 +669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/hover.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/contact.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <marker date="1556056109426" expanded="false" signature="1945:2925" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/portfolio.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/hover.scss" />
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="737">
@@ -835,16 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/partials/_ontdek-avence.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <marker date="1556020758135" expanded="false" signature="30:1002" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/portal/layouts/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -859,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/portal/layouts/layout-clean.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -873,19 +724,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/about.blade.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="268">
+          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/klantenlogin/photo-1506598417715-e3c191368ac0.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/home/_landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="248" column="21" selection-start-line="248" selection-start-column="21" selection-end-line="248" selection-end-column="21" />
           <folding>
-            <marker date="1556027168119" expanded="false" signature="1628:2607" ph="..." />
+            <marker date="1556737005831" expanded="true" signature="29:1613" ph="..." />
+            <marker date="1556737005831" expanded="true" signature="1646:3256" ph="..." />
+            <marker date="1556737005831" expanded="true" signature="3289:4863" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/klantenlogin/_klantenlogin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <marker date="1556736813331" expanded="false" signature="30:1498" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/partials/_ontdek-avence.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <marker date="1556020758135" expanded="false" signature="30:1002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/header/baseline-menu-24px.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/about/_about-landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <marker date="1556742978896" expanded="true" signature="30:1430" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/portal/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
+        <state relative-caret-position="759">
           <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
           <folding>
             <marker date="1555601655805" expanded="false" signature="823:1543" ph="..." />
@@ -902,87 +798,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/portal/partials/header.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/home/_recensies.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="423">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/partials/_header.scss">
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/services/_services-landing.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="232" column="29" selection-start-line="232" selection-start-column="29" selection-end-line="232" selection-end-column="29" />
+        <state relative-caret-position="393">
+          <caret line="35" selection-start-line="35" selection-end-line="37" selection-end-column="61" />
           <folding>
-            <marker date="1556725924663" expanded="false" signature="31:1140" ph="..." />
-            <marker date="1556725924663" expanded="false" signature="1174:2284" ph="..." />
-            <marker date="1556725924663" expanded="false" signature="2318:3425" ph="..." />
+            <marker date="1556794155220" expanded="true" signature="31:2144" ph="..." />
+            <marker date="1556794155220" expanded="true" signature="2178:4269" ph="..." />
+            <marker date="1556794155220" expanded="true" signature="4305:6395" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+    <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/services.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        <state relative-caret-position="16">
+          <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+          <folding>
+            <marker date="1557242780865" expanded="false" signature="4357:5350" ph="..." />
+            <marker date="1557242780865" expanded="true" signature="5885:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/services/_services-quality.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+          <folding>
+            <marker date="1556120026500" expanded="true" signature="55:166" ph="..." />
+            <marker date="1556120026500" expanded="false" signature="257:1571" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/portfolio/_portfolio.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="265" column="37" selection-start-line="265" selection-start-column="37" selection-end-line="265" selection-end-column="37" />
+          <folding>
+            <marker date="1557243214888" expanded="true" signature="31:2333" ph="..." />
+            <marker date="1557243214888" expanded="true" signature="2368:4728" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="72" />
+        <state relative-caret-position="2392">
+          <caret line="120" column="10" lean-forward="true" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
           <folding>
-            <marker date="1556717815314" expanded="false" signature="1846:2826" ph="..." />
+            <marker date="1557257268724" expanded="false" signature="1846:2826" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="75" column="72" selection-start-line="75" selection-start-column="72" selection-end-line="75" selection-end-column="72" />
+          <folding>
+            <marker date="1557258527778" expanded="false" signature="2126:3106" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/portfolio.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="80" />
+          <folding>
+            <marker date="1557258389859" expanded="true" signature="987:2609" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <marker date="1556793904219" expanded="false" signature="1833:2812" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/portal/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="101" column="2" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="21" />
+        <state relative-caret-position="874">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
           <folding>
-            <marker date="1556725646785" expanded="true" signature="1017:1105" ph="..." />
+            <marker date="1557600644808" expanded="true" signature="1101:1258" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/klantenlogin/photo-1506598417715-e3c191368ac0.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/portfolio/_portfolio.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/klantenlogin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/klantenlogin/_klantenlogin.scss">
+    <entry file="file://$PROJECT_DIR$/resources/views/portal/pages/testimonials.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="437">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/partials/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="25" />
           <folding>
-            <marker date="1556736813331" expanded="false" signature="30:1498" ph="..." />
+            <marker date="1557259283394" expanded="true" signature="31:1392" ph="..." />
+            <marker date="1557259283394" expanded="false" signature="1426:2601" ph="..." />
+            <marker date="1557259283394" expanded="false" signature="2635:3807" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/home/_landing.scss">
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/testimonials/_testimonials.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="104" column="7" lean-forward="true" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+        <state relative-caret-position="130">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <marker date="1556736941937" expanded="true" signature="29:1613" ph="..." />
-            <marker date="1556736941937" expanded="true" signature="1646:3256" ph="..." />
-            <marker date="1556736941937" expanded="true" signature="3289:4863" ph="..." />
+            <marker date="1557615160405" expanded="true" signature="28:1184" ph="..." />
+            <marker date="1557615160405" expanded="true" signature="1219:2393" ph="..." />
+            <marker date="1557615160405" expanded="true" signature="3605:4635" ph="..." />
+            <marker date="1557615160405" expanded="false" signature="3608:4628" ph="..." />
           </folding>
         </state>
       </provider>

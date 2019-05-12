@@ -284,20 +284,10 @@
 }
 
 @media (min-width: 800px) {
-  .ontdek-avence-background {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .ontdek-avence-background svg {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
-    height: 100%;
-  }
-
   .ontdek-avence {
-    padding-bottom: 100px;
+    padding: 100px 0;
     height: 100%;
+    box-shadow: 0px -2px 57px 0px #f0f0f0;
   }
 
   .ontdek-avence .ontdek-avence-content {
@@ -986,7 +976,7 @@
     align-items: center;
     background: white;
     display: flex;
-    padding: 60px 0;
+    padding: 60px 0 134px 0;
   }
 
   .ontworpen-voor-elk-toestel .ontwerpen-voor-elk-toestel-content {
@@ -1058,7 +1048,7 @@
     align-items: center;
     background: white;
     display: flex;
-    padding: 60px 0;
+    padding: 60px 0 130px 0;
   }
 
   .ontworpen-voor-elk-toestel .ontwerpen-voor-elk-toestel-content {
@@ -1131,7 +1121,7 @@
     align-items: center;
     background: white;
     display: flex;
-    padding: 60px 0;
+    padding: 60px 0 100px 0;
   }
 
   .ontworpen-voor-elk-toestel .ontwerpen-voor-elk-toestel-content {
@@ -1544,7 +1534,7 @@
   .recensies {
     height: 100%;
     padding: 30px 0;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
   }
 
   .recensies .recensies-content h1 {
@@ -1748,6 +1738,10 @@
   .about-us-landing .about-us-landing-content .about-us-right img {
     width: 70%;
   }
+}
+
+.our-team {
+  padding: 100px 0;
 }
 
 .our-team .our-team-top {

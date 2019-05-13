@@ -1,0 +1,37 @@
+.testimonials-info {
+  padding: 100px 0;
+  h1 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .slick-dots li button:before{
+    font-size: 10px;
+    color: #1E92E6;
+  }
+  .testimonials-content {
+    text-align: center;
+
+    .name {
+      margin: 0;
+      color: #2699FB;
+      font-size: 16px;
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    .company {
+      color: #535353;
+      font-weight: 600;
+      font-size: 21px;
+      margin: 0;
+    }
+
+    .message{
+      width: 70%;
+      margin: 18px auto 50px auto;
+    }
+
+  }
+
+}

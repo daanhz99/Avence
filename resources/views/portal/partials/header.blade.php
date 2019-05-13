@@ -8,11 +8,11 @@
             </div>
             <div class="header-menu">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/over-ons">Over ons</a></li>
-                    <li><a href="/services">Diensten</a></li>
-                    <li><a href="/portfolio">Portfolio</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a class="menu-item" href="/">Home</a></li>
+                    <li><a class="menu-item" href="/over-ons">Over ons</a></li>
+                    <li><a class="menu-item" href="/services">Diensten</a></li>
+                    <li><a class="menu-item" href="/portfolio">Portfolio</a></li>
+                    <li><a class="menu-item" href="/contact">Contact</a></li>
                     <li><a class="button-blue hvr-shutter-out-horizontal" href="/contact">Afspraak maken</a></li>
                     <li><a class="button-white" href="/klantenlogin">Klantenlogin</a></li>
                 </ul>

@@ -4,12 +4,16 @@
 
 @import "~aos/dist/aos.css";
 @import "~hover.css/css/hover-min.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 //PAGES
 
 //partials
 @import 'partials/header';
 @import 'partials/ontdek-avence';
+@import 'partials/testimonials';
 @import 'partials/footer';
+@import 'partials/services';
 
 
 //home
@@ -37,6 +41,7 @@
 //klantenlogin
 @import 'pages/klantenlogin/klantenlogin';
 @import 'pages/testimonials/testimonials';
+@import 'pages/testimonials/testimonials-done';
 
 
 * body {

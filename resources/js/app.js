@@ -1,8 +1,11 @@
 require('./bootstrap');
 require('../../node_modules/slick-carousel/slick/slick.min');
 require('aos/dist/aos');
+const slick = require('slick-carousel');
 
 $(document).ready(() => {
+    $("#testimonial-slider").slick();
+
     $('a.menu-button').click(function() {
         $('.menu-sm').fadeIn('fast');
     });

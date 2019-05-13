@@ -19,6 +19,7 @@ Route::view('/portfolio', 'portal.pages.portfolio');
 //klantenlogin
 Route::view('/klantenlogin', 'portal.pages.klantenlogin');
 Route::view('/testimonials', 'portal.pages.testimonials');
+Route::view('/testimonials-done', 'portal.pages.testimonials-done');
 
 
 
